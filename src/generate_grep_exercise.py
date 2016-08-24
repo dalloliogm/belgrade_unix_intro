@@ -16,7 +16,7 @@ def generate_basefile(lines=100):
     output = ""
 
     for x in range(lines):
-        output += random_string(56) + '    ' + random_string(20) + '\n'
+        output += random_string(40) + '    ' + random_string(35) + '\n'
 
     return output
 
@@ -38,9 +38,21 @@ def hide_message(inputtext, message = '', marker = 'MRK1'):
     Grep this file for the word "MRK1" to get the message
     """
 
-    message_l = re.findall("\n", message)
-    
+    message_l = message.splitlines()
+    output = inputtext.splitlines()
+
+    newlines_index = sorted(random.sample(range(len(output)), len(message_l)))
+
+    for msg in message_l:
+        baseline = random_string(40) + '    ' + random_string(35) + '\n'
+        marker_index = random.randint(0, 40-len(marker))
+        newline = baseline[0:marker_index] + marker + baseline[marker_index+len(marker):40] + '    ' + msg
+        output.insert(0, newline)
+
+    output = '\n'.join(output)
+    return output
 
 if __name__ == '__main__':
-    print(generate_basefile())
+    file1 = generate_basefile()
+    print(hide_message(file1, "hello\nworld", "MRK1"))
 
