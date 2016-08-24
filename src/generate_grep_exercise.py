@@ -43,11 +43,15 @@ def hide_message(inputtext, message = '', marker = 'MRK1'):
 
     newlines_index = sorted(random.sample(range(len(output)), len(message_l)))
 
+    counter = 0
     for msg in message_l:
         baseline = random_string(40) + '    ' + random_string(35) + '\n'
         marker_index = random.randint(0, 40-len(marker))
         newline = baseline[0:marker_index] + marker + baseline[marker_index+len(marker):40] + '    ' + msg
-        output.insert(0, newline)
+        
+        current_newline_index = newlines_index[counter]
+        counter += 1
+        output.insert(current_newline_index, newline)
 
     output = '\n'.join(output)
     return output
