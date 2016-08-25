@@ -2,6 +2,34 @@ import string,random
 import re
 
 
+tutorial_messages = {0 : {'label': 'start', 'parts':["""
+ ______________
+/ Welcome to   \ 
+\ PEB Belgrade!/
+ --------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\ 
+                ||----w |
+                ||     ||
+""", """
+
+    Grep the following word 
+    for the next exercise:
+                    __  .__                      
+  ___  ____   _____/  |_|__| ____  __ __   ____  
+_/ ___\/  _ \ /    \   __\  |/    \|  |  \_/ __ \ 
+\  \__(  <_> )   |  \  | |  |   |  \  |  /\  ___/ 
+ \___  >____/|___|  /__| |__|___|  /____/  \___  >
+     \/           \/             \/            \/ 
+""" ]},
+    1: {'label': 'continue', 'parts': ["""
+    grep can be used to 
+    find patterns in a file
+    """]
+    }
+    }
+
 def random_string(length=80):
     """
     Generate a random string, to create the base file
@@ -38,8 +66,8 @@ def hide_message(inputtext, message = '', marker = 'MRK1'):
     Grep this file for the word "MRK1" to get the message
     """
 
-    message_l = message.splitlines()
-    output = inputtext.splitlines()
+    message_l = re.split('\n', message)
+    output = re.split('\n', inputtext)
 
     newlines_index = sorted(random.sample(range(len(output)), len(message_l)))
 
@@ -56,7 +84,23 @@ def hide_message(inputtext, message = '', marker = 'MRK1'):
     output = '\n'.join(output)
     return output
 
+
+def generate_tutorial(tutorial_messages):
+    outputfiles = [generate_basefile() for x in range(2)]
+
+    for x in range(len(tutorial_messages)):
+        current_message = tutorial_messages[x]
+        
+        for y in range(len(current_message['parts'])):
+            outputfiles[y] = hide_message(outputfiles[y], current_message['parts'][y], current_message['label'])
+
+    for f_index in range(len(outputfiles)):
+        f_index +=1 
+        f = open("data/file" + str(f_index) + ".txt", "w")
+        f.write(outputfiles[f_index-1])
+
+
+
 if __name__ == '__main__':
-    file1 = generate_basefile()
-    print(hide_message(file1, "hello\nworld", "MRK1"))
+    generate_tutorial(tutorial_messages)
 
