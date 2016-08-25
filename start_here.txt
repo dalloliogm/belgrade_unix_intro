@@ -1,0 +1,63 @@
+ _____________________________________________
+/ To see the contents of this file, type:     \
+|                                             |
+|   less start_here.txt                       |
+\                                             /
+ --------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+
+
+
+
+To see the contents of this text file, you can use the "less" command:
+
+  $: less start_here.txt
+
+This will allow to navigate the contents of the file from the terminal.
+
+++++++++++++++++++++++++++
+Basic navigation in less
+++++++++++++++++++++++++++
+
+Once you typed "less start_here.txt", you will enter a new mode, 
+in you which you can see the contents of the file.
+
+Press the arrow keys to scroll up/down.
+
++++++++++++++++++++++++++
+Searching for keywords
++++++++++++++++++++++++++
+
+You can also search for specific keywords, by pressing the / key and type  your search.
+
+For example, /key<Enter> will move the cursor to the next occurrence of the word "key".
+
+Press the keys n and p to move to the next (n) or previous (p) occurrence of your word.
+
+++++++++++++++++++++++++++
+Existing the less mode
+++++++++++++++++++++++++++
+
+To exit the visualization mode and go back to the normal terminal, press the "q" key.
+
+
+
+
+
+
+
+ _________________________________________
+/ These are the last lines of file. You   \
+\ can see them with "tail start_here.txt" /
+ -----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
