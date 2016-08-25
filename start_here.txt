@@ -1,9 +1,9 @@
- _____________________________________________
-/ To see the contents of this file, type:     \
-|                                             |
-|   less start_here.txt                       |
-\                                             /
- --------------------------------------------
+ _________________________________________________
+/ To navigate the contents of this file, type:     \
+|                                                  |
+|        less start_here.txt                       |
+\                                                  /
+ --------------------------------------------------
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\
@@ -48,6 +48,17 @@ To exit the visualization mode and go back to the normal terminal, press the "q"
 
 
 
+
+
+=============
+Next Exercise
+=============
+
+In the next exercise we will use grep, a command line tool to search a pattern in files.
+
+Type the following to start the next exercise:
+
+$: grep start data/file1.txt
 
 
 
