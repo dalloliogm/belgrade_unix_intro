@@ -3,16 +3,18 @@ import re
 
 
 tutorial_messages = {0 : {'label': 'start', 'parts':["""
- ______________
-/ Welcome to   \ 
-\ PEB Belgrade!/
- --------------
+ ______________________________
+/ Congrats!                    \ 
+|  You've used grep correctly, |
+\  and found a cow.            /
+ ------------------------------
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\ 
                 ||----w |
                 ||     ||
-""", """
+
+
 
     Grep the following word 
     for the next exercise:
