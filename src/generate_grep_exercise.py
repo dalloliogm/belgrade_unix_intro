@@ -2,7 +2,7 @@ import string,random
 import re
 
 
-tutorial_messages = {0 : {'label': 'start', 'parts':["""
+tutorial_messages = {0 : {'label': 'start', 'file': 'data/exercise1_grep.txt', 'text':"""
  ______________________________
 / Congrats!                    \ 
 |  You've used grep correctly, |
@@ -16,19 +16,27 @@ tutorial_messages = {0 : {'label': 'start', 'parts':["""
 
 
 
-    Grep the following word 
-    for the next exercise:
-                    __  .__                      
-  ___  ____   _____/  |_|__| ____  __ __   ____  
-_/ ___\/  _ \ /    \   __\  |/    \|  |  \_/ __ \ 
-\  \__(  <_> )   |  \  | |  |   |  \  |  /\  ___/ 
- \___  >____/|___|  /__| |__|___|  /____/  \___  >
-     \/           \/             \/            \/ 
-""" ]},
-    1: {'label': 'continue', 'parts': ["""
+    The command grep allows to search for a pattern in a text file.
+    It will print all the matching lines to the screen.
+
+    All the lines containing the pattern will be printed to the screen.
+    In this case, each of these lines contain the word "start" inside it.
+
+    In the next exercise we will see how to access grep's documentation.
+
+    Grep the following word to continue:
+
+                 | |                  
+               __| |  ___    ___  ___ 
+              / _` | / _ \  / __|/ __|
+             | (_| || (_) || (__ \__ \ 
+              \__,_| \___/  \___||___/
+
+"""},
+    1: {'label': 'docs', 'file': "data/exercise1_grep.txt", 'text':"""
     grep can be used to 
     find patterns in a file
-    """]
+    """
     }
     }
 
@@ -88,19 +96,23 @@ def hide_message(inputtext, message = '', marker = 'MRK1'):
 
 
 def generate_tutorial(tutorial_messages):
-    outputfiles = [generate_basefile() for x in range(2)]
+#    outputfiles = [generate_basefile() for x in range(2)]
+    outputfile = generate_basefile()
 
     for x in range(len(tutorial_messages)):
         current_message = tutorial_messages[x]
         
-        for y in range(len(current_message['parts'])):
-            outputfiles[y] = hide_message(outputfiles[y], current_message['parts'][y], current_message['label'])
+        outputfile = hide_message(outputfile, current_message['text'], current_message['label'])
+#        for y in range(len(current_message['parts'])):
 
-    for f_index in range(len(outputfiles)):
-        f_index +=1 
-        f = open("data/file" + str(f_index) + ".txt", "w")
-        f.write(outputfiles[f_index-1])
+#    for f_index in range(len(outputfiles)):
+#        f_index +=1 
+#        f = open("data/file" + str(f_index) + ".txt", "w")
+#        f.write(outputfiles[f_index-1])
 
+    f = open('data/exercise1_grep.txt', 'w')
+    f.write(outputfile)
+    f.close()
 
 
 if __name__ == '__main__':
