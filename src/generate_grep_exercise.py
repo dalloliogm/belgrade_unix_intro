@@ -19,8 +19,9 @@ tutorial_messages = {0 : {'label': 'start', 'file': 'data/exercise1_grep.txt', '
     The command grep allows to search for a pattern in a text file.
     It will print all the matching lines to the screen.
 
-    All the lines containing the pattern will be printed to the screen.
-    In this case, each of these lines contain the word "start" inside it.
+    =================
+    Next Exercise
+    =================
 
     In the next exercise we will see how to access grep's documentation.
 
