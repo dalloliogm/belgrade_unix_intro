@@ -66,13 +66,7 @@ def generate_tutorial(tutorial_messages):
     for x in range(len(tutorial_messages)):
         current_message = tutorial_messages[x]
         
-        outputfile = hide_message(outputfile, current_message['text'], current_message['label'])
-#        for y in range(len(current_message['parts'])):
-
-#    for f_index in range(len(outputfiles)):
-#        f_index +=1 
-#        f = open("data/file" + str(f_index) + ".txt", "w")
-#        f.write(outputfiles[f_index-1])
+        outputfile = hide_message(outputfile, current_message.text, current_message.label)
 
     f = open('data/exercise1_grep.txt', 'w')
     f.write(outputfile)

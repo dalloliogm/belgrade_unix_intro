@@ -1,6 +1,20 @@
 
 
-tutorial_messages = {0 : {'label': 'start', 'file': 'data/exercise1_grep.txt', 'text':"""
+class TutorialMessage:
+    '''
+    Define a tutorial message
+
+    Using a class is a bit more organized than a dictionary,
+    because we make sure that each element has the same structure
+    '''
+    def __init__(self, index, label, filename, text):
+        self.label      = label
+        self.filename   = filename
+        self.text       = text
+        self.index      = index
+
+tutorial_messages = [
+        TutorialMessage(0, 'start', 'data/exercise1_grep.txt', """
  ______________________________
 / Congrats!                    \ 
 |  You've used grep correctly, |
@@ -31,8 +45,8 @@ tutorial_messages = {0 : {'label': 'start', 'file': 'data/exercise1_grep.txt', '
              | (_| || (_) || (__ \__ \ 
               \__,_| \___/  \___||___/
 
-"""},
-    1: {'label': 'docs', 'file': "data/exercise1_grep.txt", 'text':"""
+"""),
+    TutorialMessage(1, 'docs', 'data/exercise1_grep.txt', """
     The documentation for grep can be accessed through man:
 
         $: man grep
@@ -40,11 +54,16 @@ tutorial_messages = {0 : {'label': 'start', 'file': 'data/exercise1_grep.txt', '
     Scroll down to see all the parameters for grep and their description.
 
     Use / to search for text.
-
     Press the q key to exit.
 
-    """
-    }
-    }
 
+
+    ==============
+    Next exercise
+    ==============
+
+    There is an option in grep to 
+
+    """
+    )]
 
