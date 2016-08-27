@@ -69,20 +69,16 @@ tutorial_messages = [
     - the option for counting the number of matching lines, instead of printing them to the screen.
 
     Once you have identified these options, 
-    do a case-insensitive search on this file for the word "ignorecase", 
-    then count the number of matching lines.
+    do a case-insensitive search on this file for the word 
+    "ignorecase", then count the number of matching lines.
 
-    """
+    """, minline=27, maxline = 78
     ),
     TutorialMessage('ignorecase', 'data/exercises1.grep', '''
         
     Remember that, to continue with the exercise, 
-    you need to do a case-insensitive search for the word
-    "ignorecase".
-
-    ''', maxline=50
-    ),
-    TutorialMessage(['ignorecase', 'IgnorEcase', 'IGNORECASE'], 'data/exercises1.grep', '''
+    you need to do a case-insensitive search for the word''', maxline=20),
+    TutorialMessage(['ignOrecase', 'IgnorEcase', 'IGNORECASE'], 'data/exercises1.grep', '''
  _____________
 / Good Job!   \ 
 | You did a   |
@@ -97,7 +93,7 @@ tutorial_messages = [
                 ||     ||
 
 
-    ''', minline=60),
+    ''', minline=80),
     TutorialMessage('regex', 'data/exercises1.grep', '''
 
     Regular Expressions
