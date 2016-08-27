@@ -61,28 +61,50 @@ tutorial_messages = [
     Next exercise
     ==============
 
-    There is an option in grep to do case-insensitive searches.
+    For the next exercise, you will need to open grep's documentation and identify two options:
 
-    Grep this document again, searching for the long form of that option.
+    - the option for doing case-insensitive searches
+    - the option for counting the number of matching lines, instead of printing them to the screen.
 
-    Note that you will need to quote it using single quotes, e.g.:
-
-        $: grep '--my-option' data/exercise1_grep.txt
+    Once you have identified these options, 
+    do a case-insensitive search on this file for the word "ignorecase", 
+    then count the number of matching lines.
 
     """
     ),
-    TutorialMessage('ignore-case', 'data/exercises1.grep', '''
+    TutorialMessage('ignorecase', 'data/exercises1.grep', '''
         
-    Case insensitive
+    Remember that, to continue with the exercise, 
+    you need to do a case-insensitive search for the word
+    "ignorecase".
 
     '''
     ),
+    TutorialMessage(['ignorecase', 'IgnorEcase', 'IGNORECASE'], 'data/exercises1.grep', '''
+ _____________
+/ Good Job!   \
+| You did a   |
+| case-insens |
+| itive       |
+\ search      /
+ -------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+    '''),
+    TutorialMessage('IGNORECASE', 'data/exercises1.grep', '''
+    count me
+    count me
+    '''),
     TutorialMessage('regex', 'data/exercises1.grep', '''
 
     Regular Expressions
 
     '''), 
-
     TutorialMessage('multiple files', 'data/exercises1.grep', '''
 
     Multiple files

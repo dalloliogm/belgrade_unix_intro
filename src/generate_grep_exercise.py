@@ -65,8 +65,12 @@ def generate_tutorial(tutorial_messages):
 
     for x in range(len(tutorial_messages)):
         current_message = tutorial_messages[x]
+        if type(current_message.label) == type([]):
+            label = random.choice(current_message.label)[0]
+        else:
+            label = current_message.label
         
-        outputfile = hide_message(outputfile, current_message.text, current_message.label)
+        outputfile = hide_message(outputfile, current_message.text, label)
 
     f = open('data/exercise1_grep.txt', 'w')
     f.write(outputfile)
