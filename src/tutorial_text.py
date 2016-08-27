@@ -7,10 +7,12 @@ class TutorialMessage:
     Using a class is a bit more organized than a dictionary,
     because we make sure that each element has the same structure
     '''
-    def __init__(self, label, filename, text):
+    def __init__(self, label, filename, text, minline=0, maxline=None):
         self.label      = label
         self.filename   = filename
         self.text       = text
+        self.minline    = minline
+        self.maxline    = maxline
 
 tutorial_messages = [
         TutorialMessage('start', 'data/exercise1_grep.txt', """
@@ -78,11 +80,11 @@ tutorial_messages = [
     you need to do a case-insensitive search for the word
     "ignorecase".
 
-    '''
+    ''', maxline=200
     ),
     TutorialMessage(['ignorecase', 'IgnorEcase', 'IGNORECASE'], 'data/exercises1.grep', '''
  _____________
-/ Good Job!   \
+/ Good Job!   \ 
 | You did a   |
 | case-insens |
 | itive       |
@@ -90,16 +92,12 @@ tutorial_messages = [
  -------------
         \   ^__^
          \  (oo)\_______
-            (__)\       )\/\
+            (__)\       )\/\ 
                 ||----w |
                 ||     ||
 
 
-    '''),
-    TutorialMessage('IGNORECASE', 'data/exercises1.grep', '''
-    count me
-    count me
-    '''),
+    ''', minline=300),
     TutorialMessage('regex', 'data/exercises1.grep', '''
 
     Regular Expressions

@@ -22,9 +22,9 @@ def generate_basefile(lines=100):
 
     return output
 
-def hide_message(inputtext, message = '', marker = 'MRK1'):
+def hide_message(inputtext, message = '', label = 'MRK1'):
     """
-    Given an input text (from a file) and a marker keyword, hide a message in it.
+    Given an input text (from a file) and a label keyword, hide a message in it.
 
     >>> import random
     >>> random.seed(0)
@@ -47,9 +47,16 @@ def hide_message(inputtext, message = '', marker = 'MRK1'):
 
     counter = 0
     for msg in message_l:
+
+        if type(label) == type([]): # Multiple label messages (e.g. IgnoRecAse)
+            current_label = random.choice(label)
+        else:
+            current_label = label
+        print current_label
+
         baseline = random_string(40) + '    ' + random_string(35) + '\n'
-        marker_index = random.randint(0, 40-len(marker))
-        newline = baseline[0:marker_index] + marker + baseline[marker_index+len(marker):40] + '    ' + msg
+        label_index = random.randint(0, 40-len(current_label))
+        newline = baseline[0:label_index] + current_label + baseline[label_index+len(current_label):40] + '    ' + msg
         
         current_newline_index = newlines_index[counter]
         counter += 1
@@ -65,12 +72,7 @@ def generate_tutorial(tutorial_messages):
 
     for x in range(len(tutorial_messages)):
         current_message = tutorial_messages[x]
-        if type(current_message.label) == type([]):
-            label = random.choice(current_message.label)[0]
-        else:
-            label = current_message.label
-        
-        outputfile = hide_message(outputfile, current_message.text, label)
+        outputfile = hide_message(outputfile, current_message.text, current_message.label)
 
     f = open('data/exercise1_grep.txt', 'w')
     f.write(outputfile)
