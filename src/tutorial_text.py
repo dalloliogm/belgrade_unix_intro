@@ -29,59 +29,66 @@ tutorial_messages = [
 
 
 
-    The command grep allows to search
-    for a pattern in a text file.
-    
-    It will print all the matching 
-    lines to the screen.
+The command grep allows to search
+for a pattern in a text file.
 
-    =================
-    Next Exercise
-    =================
+It will print all the matching 
+lines to the screen.
 
-    In the next exercise we will see 
-    how to access grep's documentation.
+=================
+Next Exercise
+=================
 
-    Grep the following word to continue:
+In the next exercise we will see 
+how to access grep's documentation.
 
-                 | |                  
-               __| |  ___    ___  ___ 
-              / _` | / _ \  / __|/ __|
-             | (_| || (_) || (__ \__ \ 
-              \__,_| \___/  \___||___/
+Grep the following word to continue:
+  _            _        
+ | |          | |       
+ | |__    ___ | | _ __  
+ | '_ \  / _ \| || '_ \ 
+ | | | ||  __/| || |_) |
+ |_| |_| \___||_|| .__/ 
+                 | |    
+                 |_|  
 
 """),
-    TutorialMessage('docs', 'data/exercise1_grep.txt', """
-    The documentation for grep can be accessed through man:
+    TutorialMessage('help', 'data/exercise1_grep.txt', """
+The documentation for grep can 
+be accessed through man:
 
-        $: man grep
-    
-    Scroll down to see all the parameters for grep and their description.
+    $: man grep
 
-    Use / to search for text.
-    Press the q key to exit.
+Scroll down to see all the 
+parameters for grep and their description.
+
+Use / to search for text.
+Press the q key to exit.
 
 
 
-    ==============
-    Next exercise
-    ==============
+==============
+Next exercise
+==============
 
-    For the next exercise, you will need to open grep's documentation and identify two options:
+For the next exercise, you will need to open 
+grep's documentation and identify two options:
 
-    - the option for doing case-insensitive searches
-    - the option for counting the number of matching lines, instead of printing them to the screen.
+- the option for case-insensitive searches
+- the option for counting 
+  the number of matching lines, 
+  instead of printing them to the screen.
 
-    Once you have identified these options, 
-    do a case-insensitive search on this file for the word 
-    "ignorecase", then count the number of matching lines.
+Once you have identified these options, 
+do a case-insensitive search on this file for the word 
+"ignorecase", then count the number of lines.
 
     """, minline=27, maxline = 78
     ),
     TutorialMessage('ignorecase', 'data/exercises1.grep', '''
         
-    Remember that, to continue with the exercise, 
-    you need to do a case-insensitive search for the word''', maxline=20),
+Remember that, to continue with the exercise, 
+you need to do a case-insensitive search for the word''', maxline=20),
     TutorialMessage(['ignOrecase', 'ignorecase', 'IgnorEcase', 'IGNORECASE'], 'data/exercises1.grep', '''
  _____________
 / Good Job!   \ 
