@@ -33,8 +33,16 @@ tutorial_messages = {0 : {'label': 'start', 'file': 'data/exercise1_grep.txt', '
 
 """},
     1: {'label': 'docs', 'file': "data/exercise1_grep.txt", 'text':"""
-    grep can be used to 
-    find patterns in a file
+    The documentation for grep can be accessed through man:
+
+        $: man grep
+    
+    Scroll down to see all the parameters for grep and their description.
+
+    Use / to search for text.
+
+    Press the q key to exit.
+
     """
     }
     }
