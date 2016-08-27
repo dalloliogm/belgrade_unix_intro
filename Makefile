@@ -1,7 +1,10 @@
 
-all: update start docs ignorecase regex multiplefiles
+all: generate_exercise start docs ignorecase regex multiplefiles
 
-update:
+notebook:
+	jupyter nbconvert --to notebook --execute PEB\ Bash\ Workshop.ipynb
+
+generate_exercise:
 	python src/generate_grep_exercise.py
 
 start:
