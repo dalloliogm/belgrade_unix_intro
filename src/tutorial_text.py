@@ -62,8 +62,20 @@ tutorial_messages = [
     Next exercise
     ==============
 
-    There is an option in grep to 
+    There is an option in grep to do case-insensitive searches.
+
+    Grep this document again, searching for the long form of that option.
+
+    Note that you will need to quote it using single quotes, e.g.:
+
+        $: grep '--my-option' data/exercise1_grep.txt
 
     """
-    )]
+    ),
+    TutorialMessage(2, '--ignore-case', 'data/exercises1.grep', '''
+        
+    Case insensitive
+
+    ''')
+    ]
 
