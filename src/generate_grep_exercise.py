@@ -8,7 +8,7 @@ def random_string(length=80):
     """
     Generate a random string, to create the base file
     """
-    return ''.join(random.SystemRandom().choice(string.ascii_letters + string.digits + ' ') for _ in range(length))
+    return ''.join(random.SystemRandom().choice(string.ascii_letters + '013456789' + ' ') for _ in range(length))
 
 def generate_basefile(lines=100):
     """
@@ -47,7 +47,7 @@ def hide_message(inputtext, message = '', label = 'MRK1', minline=0, maxline=Non
         maxline = len(output)
     
     newlines_index = sorted(random.sample(range(minline, maxline), len(message_l)))
-    print label, newlines_index
+#    print label, newlines_index
 
     counter = 0
     for msg in message_l:

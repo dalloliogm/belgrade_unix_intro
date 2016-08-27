@@ -78,7 +78,7 @@ tutorial_messages = [
         
     Remember that, to continue with the exercise, 
     you need to do a case-insensitive search for the word''', maxline=20),
-    TutorialMessage(['ignOrecase', 'IgnorEcase', 'IGNORECASE'], 'data/exercises1.grep', '''
+    TutorialMessage(['ignOrecase', 'ignorecase', 'IgnorEcase', 'IGNORECASE'], 'data/exercises1.grep', '''
  _____________
 / Good Job!   \ 
 | You did a   |
@@ -94,7 +94,7 @@ tutorial_messages = [
 
 
     ''', minline=80),
-    TutorialMessage('regex', 'data/exercises1.grep', '''
+    TutorialMessage('21', 'data/exercises1.grep', '''
 
     Regular Expressions
 
