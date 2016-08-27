@@ -7,7 +7,7 @@ class TutorialMessage:
     Using a class is a bit more organized than a dictionary,
     because we make sure that each element has the same structure
     '''
-    def __init__(self, label, text, minline=0, maxline=None):
+    def __init__(self, label, text, minline=12, maxline=None):
         self.label      = label
         self.text       = text
         self.minline    = minline
@@ -82,7 +82,7 @@ Once you have identified these options,
 do a case-insensitive search on this file for the word 
 "ignorecase", then count the number of lines.
 
-    """, minline=27, maxline = 78
+    """, minline=57, maxline = 178
     ),
     TutorialMessage('ignorecase', '''
         
@@ -103,7 +103,7 @@ you need to do a case-insensitive search for the word''', maxline=20),
                 ||     ||
 
 
-    ''', minline=80),
+    ''', minline=185),
     TutorialMessage('21', '''
 
 Searching in multiple files
@@ -131,8 +131,7 @@ the nucleotides AAA, followed by any character, and then TTT?
 Next Exercise
 ==============
 
-Use the -B option of grep to identify all the:w
-v
+Use the -B option of grep to identify all the
     ''')
     ]
 
