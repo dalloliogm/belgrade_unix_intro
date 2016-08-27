@@ -15,7 +15,7 @@ class TutorialMessage:
         self.maxline    = maxline
 
 tutorial_messages = [
-        TutorialMessage('start', 'data/exercise1_grep.txt', """
+        TutorialMessage(['start', ' start ', ' start', 'start '], 'data/exercise1_grep.txt', """
  ______________________________
 / Congrats!                    \ 
 |  You've used grep correctly, |
@@ -29,14 +29,18 @@ tutorial_messages = [
 
 
 
-    The command grep allows to search for a pattern in a text file.
-    It will print all the matching lines to the screen.
+    The command grep allows to search
+    for a pattern in a text file.
+    
+    It will print all the matching 
+    lines to the screen.
 
     =================
     Next Exercise
     =================
 
-    In the next exercise we will see how to access grep's documentation.
+    In the next exercise we will see 
+    how to access grep's documentation.
 
     Grep the following word to continue:
 

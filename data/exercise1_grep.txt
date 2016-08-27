@@ -1,188 +1,188 @@
-hXYCxF4wt7q3owJP0hwS ooru0GQfgtGvOx1ofM7    GAZ48GtaOlfSrFqJeqiKoPSEeneM8xev3dy
-STUz9vCjioJaauXXXo4c5QTkBXIMByj9TjY36lbu    WawfK zwOva6RmdeOr4GTENrJVIRk0hwDFa
-vlb98ErhgJaLPnzNcH7DI1EDFaHGC3xxXzPpjEwT    oBEEIgLT4UvK9MG9OiB7tJJB0oUjfkE1xbA
-9d9mMIitt iBUi58zeaignorecase6jPB3ZgBDfh    
-MvUmM 0kNeK8YqlHRGNBg NATN QasP7H8DuPTWd    0BxSetwUGJHgsZDDXn4l8z4CFlILIkAR7hY
-bghcEE75YynC3YHlSJSpfJLyBb5em4bXCwhEbF66    PigrLUHNGH7sov5cSNxfAzkRLDtwMrsQSPg
-b9Vbtf1xujdmRvgtCKsevwLzc L0O0Wxt cz15dH    IkDYYqsar3Vq5ywE4uQfAt8v3yNpm0N7ujf
-UC6nsZnx7u jfzyignorecasezLNutvJKOkuvfn7            
-3TkaSmY6D9DHooFQJ80Xpr0EERHw5uxE7DTntV0V    7SuppbzWQN5VWpx ygRr0TPqWCxf7c8WVMH
-BqIQVOH638od0vSignorecase4cRBelVODqWW1rM        Remember that, to continue with the exercise, 
-VHBgujKgbQG6qIXuYjIflSJrWX5vhYNx6tCjHKO6    eNajUvFkXx9DIaovZ0muoiR0Law KYAWyrh
-f97R3FjVstartORyEK7lxwBEwVzhbhbfbFSFc69E    
-YuRspA yDRdIFq4WgkyRgLDINq0JstartDIyEZqF     ______________________________
-AQdcL7QJGCsF4m8jo9J B10aignorecasebOMImQ        you need to do a case-insensitive search for the word
-0YUNNQKtLAKbRc9Tyjjk4tq HbjuVUX3BAeZvbCr    NrIt0yBj0cnn89wheZxopR3mdoSPkzws0DA
-KBFm5nQOMmJAPMAJBX OXhu6JmJGZprOrsSDzuYz    fqnQ8NjRvSu8WmbYZfuSrM4SWhN9zwVRPC3
-Ls5WkaMFyBGWq6BUUL21Ti1qXc5RYskapukvVqDO    
-bboj fs sFstart3yvFq0cZZXPNR9Ad40d1KCore    / Congrats!                    \ 
-m0unpBvhq3MaAEcmZ590Xv3qKUzforSkEauyujFN    GyiDZBBaXkIo xT9Zjd0zkcPFhZTsMTZXUC
-D0rT1YKxWkPuYqirrntdIeNmSoGrUkWE3NGyVYEz    SnNL3lVbMBl808VQGi3raNPCWvECAtvBhw1
-ubLTAXsQ rL7Kh1zUVOh3ZOLwcCmvvwGgU08rL f    QgsowiZzWliUzmzXM7fnVAJe8mAc8g0jhNG
-qsgKkIdG4R5sQS3oYll921WftTCLm 6JBDsdvuLx    
-eE8PstarttjDZTZ3WtzMGWtodRH8rOebk1MM4aVH    |  You've used grep correctly, |
-DwYIYyFFioQDDf4gYxDfrH4MzDTYxr7RJ5PkpUM5    UQT7Q764UQVmS6Pokb0rHj8WsVM UA59ERz
-q109Gg4startVDcNAN4nQ9bWSWKRGvHsPzONsfmq    \  and found a cow.            /
-kcsmD0qwfGVF7wFo57XxzvCCxUVDpoCmOgHjkvg9    eqO9EgWH6OFP9T5ZIahpxujKJUm 7jIlBBH
-ued70d4dnZRtVQGaL5ZKDFvkYcyg0UxEQwseCCGa    1jGNWeWIDW ctgflftYkbAQWYttP4l8PgvC
-ww6osNWMCuBDDQC7kIHOLZDJQn9psRYFDCiDOozp    Ma7x6dWWMmSAfOUlhZqj3r1coVTi TZFA1v
-wLJH3bxP1bf7DNdzXIEqgZQQAWf4LWj1t7M4eehU    NYFilqZrRKd1StkBY6vi4Pp1ixfjw vrx5v
-9oBoVKpLAeDRH406NAn93dhJNCDTFzCFapt6Nfbe    FMdAKqtUDK1M8SjUaFIffPDs0QBvZpxPTVt
-Sv90hpy6aQE3KVwMyx6ZLlZfWfAxsyyaz tEoo e    kOSthn3jYPetf8UE5rAPSMyr3W87wlIukdt
-Zr1sAKroq3ib7mPKTULQ6z6pEBy3doY7Q 1RiiQt    HTBASQ 61A6Pg0Sv3nnVel8Z0XxM4nk0hRN
-I7gGWAf9CstartQ1T0aocKHmixZpn88WHj8i8UO      ------------------------------
-C8jlKPAaM8QuWdJxgpok Cn5DAOadocssQ0 vrKF    
-i3yuLcwQCXZmUl idHaWB8eq1qzPhCgQvVSNPetp    JaB51T9rRQOvhgee4XDLNbK6ERQ9hnyl4Sy
-SSh1S57xUp51ktTd6JTp9cbQrKH0MibLRdocsWxS        The documentation for grep can be accessed through man:
-xqBqXU7hHbGuqBsdocsssltRv1hkca8QkPLwsapN    
-uQQKM0jgfBdocsR9cD4uiSv3xtPsUjbujOymg6kN            $: man grep
-gk4EbTVHjrB58NrEXCwzfIkdfhjcw8jdocsdugUh        
-EqOk7IVDs33MIFZgp5DbIO0LjaG 8RddocsRfqHX        Scroll down to see all the parameters for grep and their description.
-Opk3 8QrV6qaHVpXzic9hzxiyIUo7Fms4vv3ADWT    g8Ps6yUDgT1U5tEcee0Bc6SieVlZpzqm6L4
-multiple filesWYZxeR38Tl uapvZxVhIqlR5cS    
-hW8YD4wPRuDca qOpbn6N1Ym kqRmr3jVdocsMS8    
-OIYeBNO1kpBg77XxbZe5EEJfIUGOaFuUIMjS3r93    m6H6t7M9nSidMBfji6wDAlRW3uQMd8G6Vdg
-43Mdocs B9ubxCFIIDjGgcHIfiMHEhf8OPagwroy        Use / to search for text.
-hzlfLG0mXnx3mUqNO6BYpPMFKPJp1dZTVZmxEAHb    ne8SypuCtRUjevfix fYFTgYt3Gc4YgTALT
-IZstartWUoLJpfpk7e850WHN1s34WMrIZ8DJbkWq            \   ^__^
-MrLFDijtQB7wyouG8yKBiwISiIDqCEGBieIZchNi    ydGSHbPB41hBtgwgJjoNajXNWi4dHyPcGq5
-5jNNPvQiEKLGLsJ7startAvO4rQIpomd7lc0sms0             \  (oo)\_______
-RxyG4Xb7 xwEMoXNCTyV6df9pWbMfdocskV4V8RY        Press the q key to exit.
-9Uywc1iuwWD44FgUdVG9NdTHQel7DATFzP0yhjhY    A8Fq3HfV3czS5LQ BV1QT9e6tV55wJZEFCR
-codrtwpqjICX mSHthVzwTrHOMquCHM8jSMr7grv    f4OxZceYDLJZXgcweUuJgA5T4Bg BI0ZcwW
-tAiZWhWH8V1qRZDEYKO4ANbaoO1czb1FZsirIjqF    RLPq9rwhweVulaqQ8KBQYcM4I19Pmqv pa8
-Ot5UnFT7PdocsE0pZJWqh9653anVL03X0yrCCkwI    
-ZBeqZ 7startLggyjT9ed53txjIKcK6i9peMEcR                 (__)\       )\/\ 
-KlYLzrostartMZ4ToQLgza4mDVseUfhUcsPQM04n                    ||----w |
- fPY1xqXzu3Acazmultiple files8ILDLe3oZm9    
-gqQqvEK5XFu0szguVh6Rz0CpjK0VyQKjEYW6F99n    WTopr rjowdFNQSoCn9M4Jg9qoINu9c7rih
-dIbYvC6qa GTKoQiJqVbt7eei7HGs7KCUdv6AZDT    XukdzoJrARcB6b8aGqyBtztqLWN33NmwwKN
-AtzTfRF6Q0d8OfPvnz6n4fblYLUosYAj4lGJQBLg    x FP0lSNWtNWfRdfu6ehVQKTO ulqZYPp3L
-w1jWBuTLWO5gGydocs ct4YnIZPQvEwkMJsRIrDg    
-zt8ECbrr7JwX5NbUcHFBYMcDpbWT4ecjLLUVdocs    
-docsdrHeOVWRMo19i6ChJCGs95IzijD4BFf6GzY1        ==============
-ysNBRI5U9vdocsrozpkvoIZXi0w4gH898D0oo8op        Next exercise
-y5eL7QicX1o1Hoe0swdZvJDQR3g833anByYcNFa5    XXk6U7obUEclex994Lp1kyPPk58upuWSuNE
-oHU mgKC04k CstartLgfFKYX g3MKr516cKrV6w                    ||     ||
-LnwWn1B7f Dl1eqMhHMMRsdll8ZbbalKY1RHirdg    M3ucAEGvJl1xRzbP7ngZoE cHcenYjBNyfe
-03idocsvf65YaNQ6bxdTXVoZrY8MJ E9gcSkVBct        ==============
-RWDoFI1Wy83xZ3Hhostart9MGSIEd10hr7M0YbYM    
-UEpkEuLpmgw5uPGyKnllCjEWD4iBwB8J65docsKO    
-8lnK3lF9KpUDMCdiRdocsy5vZeilcObCskPWDcjk        For the next exercise, you will need to open grep's documentation and identify two options:
-S4b3WbOKrPLCucQjJPfnfgFu3SW3wstarttqabG4    
-HsgodocsVRuwunceOyMbiwkpaqJQrHXUzgLWYWrh    
-7jxCxMQuzjG9PSHKBcyueKFddk3oZlU38Hm8OwTF    A3djgTteoCKhAmvGzNPjJTDnm7K TKtWs5v
-t71A9wNPDkyBsdocsuTJh6DMpEIxsYUDBirA ouv        - the option for doing case-insensitive searches
-tRHzd9tD7baCjgn0ZQEQDAR8a iFKMWkBDxrRsln    XSL8L8ueCMLNV3oXWo1lOPKj 5fizEVBFOF
-pas7yAU79xGAnpJrkAJ8PwEZRIOgJY5PVvdocsqK        - the option for counting the number of matching lines, instead of printing them to the screen.
-EQakUS rJ5lLLzUznjH8OPHkUEs3ndocsOW14q9T    
-n0GVR7r8zSUM9uYpLIklYddocsDKsmX5RBhyWgPa        Once you have identified these options, 
-nMqBus91ACBeD7yoOwO4LTNjaTMKUGfPHnmgEOYC    TMyl8NWIsO03mV6vm0NEyG7HqLeMsdDKXk1
-raEED3Q96ElL8SmA ghvdocs768ciLmVr0rCh8ob        do a case-insensitive search on this file for the word 
-8z47NEXjpCmgYjgnEnqHCuXZdocsbAinq0sd0WSP        "ignorecase", then count the number of matching lines.
-XV0pDME0B4PLA5startgsmRFqrGpXBC3l83tiegP    
-Pkqstart81f4H9IM0KuncqQy1ywpMepedFfc3sCJ        The command grep allows to search for a pattern in a text file.
-9FSsiHuAm8VPTkmignorecaseKEa7os07jV8tRQT    
-QTBHVx4jNWL39d7BLlIeidjOdocsYMUXCnEVtPUI    
-LwUJkWjuyIgnorEcaseuYirS4lNIHbXOGpy5Amw      _____________
-X3OIojQ1IQHg8bYh9docsvdE94czwJ5esMFe1176        
-wls7nwJbeCF6ogijDx421VQk0ycrSfmOBpvfk4LS        Regular Expressions
-jD1ta0eKNvEpXIYtdJoUflkstartJsKZgASWj6YO        It will print all the matching lines to the screen.
-izTIsJeviGWloCAopRgI3Nunonmx3ZZuNeKMRJiV    unaBSJ6h0QLFa4ns0SL IKcYRr1cfbu1gia
-IGO5UAoabAEkrB3SeXLZlYTJTjZ7zKgewqihfHu7    5cODjbOIiCF6MTzURSIis3JTS7oL OHwlBa
-WDq6RyUuRRlMdsEW6ptAwSfsnXx7vpXaIVdMcATk    S8kNNusceXCea9YEHhXYnhYZ4dZpiOscpmT
-nBbzlLRDT0DmbWXpEZBRjgJ9jTPg77zglv98Mvwb    v VnyyC9rYGrr45Z5OQK060ffUXxpM4IZhh
-cGZKN 8R6b37R6871N7oO6wkDa9TOP rB1x313wy    i6BNViYY64LNxiseMskEG9LTecsWftGoI8p
-XoMk5zBQgPJCSBwjX0OJ8ka49dFstartt 1zHyiz    
-lLJdhENj3bPe807Dstart4GomYBgVSfYjVfXJm7c        =================
-9C5HeXGdLA9SBB1zDbstartKQ1tSYF34PlcFs7gK        Next Exercise
-pD0s3fRsuQPMjxk3GHKHb9d8WpInqn0LCChkWmyP    3ES7V4b7AJczbX594RIw7rS0nkhtcvFj9Xd
-CRLsYRU3PajW7REAupPTcignorecasexb ESzi7g    / Good Job!   \ 
-glKfwbL8ZbVOQEnQY7zlobwYccrAPfn838nnonkG    Y1lnT77wcffSdvxkSYJcmuSEI0DKIiMlAL7
-fGaQipyAYflxxsz ozSZJ8szhfp1FOwTrNFSzO5Z    ERCDPG68epzzc0dBYmPWqDpAijn T3nn8JS
-WclhYIgnorEcasem6esLs9navFrX3YXu89PAKZAF    | You did a   |
-zQqTxeTFBbj1pCFE3IX3B0ZKLXLF21SFo6Ht7i 6    
-fSwW0LsE GvignOrecase6IWVPmce9ZyCjZXXi8x    | case-insens |
-ic1i jRRRPAQfP5TvE5YFCkotG1Y9qWuqt6j66mn    Bs 0VNc7v7M4oxh5a4Pbndr0U5mFLAUrIak
-xgPwhCuhdRwnt5qe7 BA3Ckf7u iI U5rdXSZhaY    T1egw9Z3r9wO8iddVVsswUAGXyAPAT1In6X
-ivs3oyakh4efxbkbg7E E5g5qlW V5iE5xlgJ 8y    YCkU50SOCylIchQwJdjzXmQkRZLeHmP9C04
-8 Bh7KKmultiple files6SNYRQFsDIKHCyPTB16        Multiple files
-Is0bHGX7JJEJdURH8L rCxFmgR8OPlVRwjbR4Hcq    7l8PC794d8ZQ4e70EkfUQPlnMuPnPAwcopw
-Ii1PCvDJseigxQ9zd6c6REUmgiPW4in0wP46FdfD    nb7zrGQeaXt9GPNhBkaaXploCX8S QRt3gI
-qtWw4qjp1sstartDrBaM9cNIyGAExQqn5rL4noUW        =================
-ZYbD9PstartgPFdquJhxDhuSAnuAj oOMGcJpRTG    
-xPq9Ph1x93bNJ9EvXJxFbyx9PEe4zx98F6mEMLBL    pfzjbnvefYDxkZvfRQO8jsL UmcgEf4weR0
-NZHlU533uleFhWqlMS8Mq8YWMykg8m79NOSFnVNE    ShdRNQ6LCR wVsMuqdlufDEXMYtI0qJ8qwk
- RmbIguGxI77sZf4clP8a3BI8vqKZfZbunqPml1     k3B7rjpvfaGaX8CLgobeVoHKYHHObGDFFt7
-OsGtX4MsUQlcYKH093TK0TfygVua8MdXcLqLtNZV    DQUAjYBatsPZ8WLEpJFVRp65GySy3K36UHd
-oDLC41X3XFPtsyy5AzKp5WfcckVGXIGNORECASEA    | itive       |
-UbzkpY7rrXViuPNWp7UEAchzXWwqWIxxXTgQyrhw    iQafU3HwI 5Ej8D0SROB6LOHl4Fn4LJoMCw
-lOQ0qeFnJ0lUb67w pHdFjleaaCtWRBAlVGuZwFi    KlohIpQJ9AYQfBhIjvjP8RyUSJP NK1ucGI
-7B0lgd0v3UBW5NrMMBWhPpSGZignOrecasecQk4E    \ search      /
-qClLXI9SpWLSPU6iqestartOXM51frXiC1MOWA5K        In the next exercise we will see how to access grep's documentation.
-lnfKIYV7rQhTVignOrecase8mzXvQrwmEcIZytNb     -------------
-IYw PV9str73sxuvKhzmLqUUwRUWlC4qkZgCNBig    5 J7AkfxvxB4D8uBJSP8EzfmtDGQbKf5S7y
-5178bMViQby4NEIoXSTZMwih7KWUNlgZNaw5b8R7    rQctWOiV0FIMa5gCyGps6muMV7ZBh0ZXwTA
-viaisT8yfkfqh5svsVoYUpIAW4znZ startiS9Df    
- JxrcEwHoqpWXyiZnP9dQRNWVI9sYwob8PyPkBt1    sfbqn K8wrlrHxEWhQNVPKiWeRqhZ05LUj5
-Lfj6X0tV395p5FKxTz 5eDaIOEp9SvS77QygB0nu    wl7HlrEFNmE9gv7FyGBZ1eTPCPxSebS8Yk 
-Bem4p XhIK8gaGQU7CFTjcG6Ue7vGMQmWs6Ktmdc    C9c4Vp7cwWiR7 JPZHsGBzDkEqM7CnWxmIk
-Z5cZFvRYJ1O tcHTdg5ekb6MCutoTJAqV4wstart        Grep the following word to continue:
-4PJxLEfl6G4jYfazignOrecaseB8SMtlCQv8MxEl            \   ^__^
-7L9heyKDVk3rYISUXQanoyk0oR zfaPXZAape0Bv    gHpvAvFhfaioZXWkau9QhgZm3ozwmM4aWer
-RYWOBAc9RCxQmKW9MHDQTlaaKg5IoirtAy5w9ePi    qyFsluP4lwt5osExUmIIE4g9d3bxLqmYItU
-naNLtLfmBOPUIUzdr4JstartD7ut8RLbt0Psfe1O    
-9X3xvVT0scKyxrVYcb1qxwwN0gWElH16qgwUTQqr    YnohkRbPVcNp l38RxxK4dOz1FqJUiM1RJ 
-SCLBDqYEHNkDCAfDyjOuGPLKrsbxapTxt yVY5zc    mdOfOlMsehc6MCgjZCLpXuiYZxfZj969VOm
-SAhVuWlfrc1yLIH3NBR3RYF5vLUPif58start 8R                     | |                  
-eaVe7startGrZuQvSX0AdcJ9wV8yEL0kJjLOg0G7                   __| |  ___    ___  ___ 
-startV 7kEqcE3eGA4CLTnckwKlXwaiB1sSCBQM6                  / _` | / _ \  / __|/ __|
-HQKikGVDIhx7JEToWq3pfd8MujySJZ1l1H YfnxU    6GFZO8IA1jZeDETDwEuOK4Difc0z7nCb1pt
-EpystartK63VDRj0FIN tsxxBVOUhOGLBb13ZAGZ                 | (_| || (_) || (__ \__ \ 
-MpP0hI8S3wBs8Mignorecasej3N Cgbxjw6wtOal             \  (oo)\_______
-m0ifIToSQKanQztPBLLM7MdiosVT5gpJ947eZcHX    8zRT0BAFuMdjjBSRGwUU5xFeEhjLbOVR1yH
-xvyNPD6Wowj7unHZY9PboRW5L8startj5k8WaVnj                  \__,_| \___/  \___||___/
-Ly4WTQN9YoowWwstartZ7PXA1Ix qU1O0p9ktagN    
-HQk4LC7a4z0Suqmultiple files1zyf5REhHOX8    
-SMazk5Hg7YxWK1 qHi8CaleEsxyZB79HK15pysYG    yXGcrrnIaMt7IadUPuPrOgVpJBL8LJQwjJR
-eO9eZ6Mro15LQkkSxI9CiEBDvWy1wXfZk sililC    6IapHmwCXnX5z9UzkK4WwbQseRDW9GJHSMz
-bJ00nUiMjgkyrqB1CyAqew8UVWvgdBstartphrWR    
-y8VDxP p La8bffqhqcUAxhignOrecase9u0AN4u                (__)\       )\/\ 
-C6WwlMuoTqDqeVhRpiO6rvDTFnFF9XGF 3X6GfcC    d4vxCDD1lyWyhc6i38Zzpzj5qNLy7vbUvbJ
-fxeY7DLqIMYHoYJKcTtqDzMMA3yeWDE67fms5WMV    meoLZPfF0aNoFPMaNkZbmghSC398CAIaDHQ
-Z 40IcHDQM4k4hPJx5HlIxV8dfSeOmXiN6lWwtHV    EFITkail1DyGhBx8AUuS556nLXkJWjJ0ppz
-fIZsarggWp8yDmC669Kxi8a9EwYcarMiC4tA0jmV    Ebze EhLRyXkgUGtN0BHtlNUusEFQErohr9
-TvEzVQ1B0YZbG5xI5FFADN0rkDFc9vs6Ln5LpvPK    JcgiXvsKvHSm01QY7GKa4qz PuLirAF7BYG
-z5Yctq7zs4JUaBFOZEJRq0kPEIgnorEcasesx67C                    ||----w |
-4gUIGNORECASE1sX895s4HPMvIvSgy1CQs5H4TEu                    ||     ||
-sqJcpETuE1MwwNpCQkP8eQm3aoGHxd4ymuZnW1vY    EJVQOddNhjDJuskN8D41rXw9W7HvoGicEcG
-3w5iAFNeAgkwkTTbKLF7HbTvmK0zYixqLsSbPQ3l    NrdNqKMgltQfVBOwWFmiEwDLWduiw5r0Lev
-L tJsj87vP5IrFgitHR1cxIGNORECASETh7xyfGh    
-ywC3oDZdJwtpUQVHRLfCtfn6wb4 fMBb8pEutTk7    yLL3HGl5oiXJMQNCBwYISIg1nXRaeGMEfbW
-vTNgiL4ignOrecaseIb7ZMNc051814eYZE7S3MGK    
-8hKKzIGNORECASE3hTP514LBAkmY3dWXsJ4Jf5Ck        
-szVDBhjEsxeKLd69aIXapPi1qo7fNSSMQAZo uoU    MHeYhB7Pdp7MZlw7lX4tfA7yMueNmtGXhVc
-94GuoN0r7N9rzPxXpulxQqYvdnWtRhkMYboORfDb    CSZ1Xj79xiHCD59rI4TXP1czeHp7PnFukLI
-do 1J6hRaXPTyZ7l6yW3Pds4S6ccvIQYEyS9OKRU    HXiSfJIh4y3cVIbb i8zHVcbWbLYSoTGY7j
-KujA8VoUQYM9KXz1kmWn9098y7gF3VqpnKhJidQT    3PeFPuUxe6dpZCqzuq3ZMtTnEkEVMtC9LL9
-vbuwlCGmxydh1vLnbFKFrQkR0hYsyBvIBZqXqgvk    rXIPDC5uIn7vgM6xewZdKaM1ZR b0DHOFmG
-vpuW9N8eUMLlRvtxIP7k4NjhWQ0343toyRIi95KY    jJtnQ K KX1otqBURRqGsie5pPNFkYdAxrH
-f jXD3FPAN4531hJKr1GT6rB csGS584ZOyf49Jr    CXngEICS0tD69lLuiLSLyVt0ZlvxBXbRD9i
-p3IJHWWw8wCw7c4a1jzXCsxYXKHyJKHPPkxNJK7q    BnOQ66HKIq6GQOww5nPo7N3Y W0iXuzO7W 
-GO8rvc721etITrjYCivtSuV1ywmlLq9WnmI0WWAZ        
-98XB66BbERx6a1BqNHXrcRDDehXTUXRK5AeRqWBW    hlcTOWswi4e18jnnkJMQQu7FRDpM9dfA4Ig
-jG6VBzGC5 BMcQGSVvmSeyfAVKt4mrmt9sYQ7xra    5ttzqDgTrq5Dt1vwN0IRI1jpVi6vc9G PbD
-3VBN6GCXxkRiQOzq0Pbd19jG1JfOD8IWBRmJx7lh    kv54TnFUim ue0hcljIB vSEvn7xqXFLFwi
-MiAhZgm3RBxzFVA43fmZtn74 QKUelVRA5SXGh5l    Jvpq8r1unteredQfNt6QDGly4nHap9OIXRf
-UDcmIpKODN6NjFgcoQoHivbugVdLViVSalY3zAFa    AALzF6BZx5jLqrCkaP3nTotxz5uZgnFGWQK
-IfRyMkPnG6PNQ3aIf7Kp8q8vn multiple files        
-gU8nOPZijFAzLsGSTFhsBNar7 XKJCL4CdqiS5E5    CT4qD t7eZEhm7YHfqHJeKMnT4dfXWvH4vq
-RVhaKErHz6gJmTRzU4NfiBr8gXgFiXhdQzQ4VVL     c8DIwsjU10IYKnHWDlpGMPsS19YQS16NxYh
-xw5Me00KTsnyg1ZwNBNec7AN4TFwLosUKEB5jXIi    wmW YF7uFkdVnfVYSJLBZlwc6Ohu1574ofZ
-Opt0Bz41H1hJYPDMaTgolCZgdQ9kMR0ZqCpY0Idc    qrS 7psBcEVZTztctW8y5SabG6tHu4dw4 h
-6bhkHs4fNYcD1qJauhQpsocvpCUc7fYW7xVButCo    lqm5tJp0H0tgh6E4v1J9zbXNMYYivZ1EY85
-YT WEmFgDoB3hCOnaep8LepVh5rFR4QSY478AIJR    qt4LvFTgw9aDVBb4qBF1bit7AkvhiBpndbU
-bPO EDLTsuMVSplUzzgmSIaOCBdvH1VIJ4kuu93q    DDGFBduasFNF3y8vnwC6BaX3E74n4eX4pHA
-HzBxp8FdTetRJjGY3Yr9QTtez0hgdvtrcdJEp4oX    qqtuWPxP6PLwhO604GyG5rsWwJdOA0 S9c1
-Y8F14Ed9hfl Ao9MGaruL4NtVB4g1uLc3yzZ60zo    yFfFvy8whYYTpwEQJ76Pi9MLZoNVuBiNXla
-8sKydpgWsnkWFgnpojuMEq9J1qq5gc5ULhk9uni7    oU3qEfN6MbeVshyXKsqoVtFB0pZMr7HQHkM
+0X0mOacqDeopGKArQjsOvswP7lO0startFZjbXNa    
+8a21N6xVGjj1tqTm107uPNhsFfwpPV3GnLRIWIGE    
+BooUc5 9fsXJDnumykx0xGU7oyXAMTRBdUZvZuYv    swbMsvLc7YsJXFtOubtXXRzSGFbrMjH3mSU
+O5eEcuRPh3SCJTG3XjHhUYQZ8tpysb9UfSGHiJ L    1fnxpKzjYJKGCAA9lLdGxFUIq9CrnIwJmqM
+tMOi PKSYFlEkdcFppTBFGtwTrYRRQlLhL47wccp    mgMvsjdhMI4iFhcFFREg3Vk7UcDeqgoRvP1
+XTUw7zAKh sqjmm6LrqmQPkEsux0HJWrI7bCcNOG    EPIvHDG6NhlZds575lJHTwo18FG9WlX5eTJ
+0Gv39Hwpg zB3 FnOCPHvwUlTTTso7WPaPTXPWWV    hf8OR5sEpQdnZXFA0ITdxbvoNRfo 8cT0vB
+0s0W6IF7F0BRKvEiXignorecase3y9ZLjSaHr6MG    
+startu6scK7MXAVLjVNvhBruxmuLvs1ARZAS5Of8     ______________________________
+c 8I6B4wt83ONEcWBebW vgs4wkAzvtNcXqnGC4d    LRPHCfmPJ9HYM r391ObJBZrVxxW 0SliCF
+c6Wc7lc96O40T56Ky0cQHJ4GOTg3atXMpUYYJUbT    XlyFGgi71TPPegbQmSjrcPlmFy36NrREJ4A
+hVqkSIPoMUgTNroBRrWPGee60fOfg121alyr lkn    
+TADlUaJCNO9QhcEGzZLpQd7QCcdQ9eignorecase            
+MviZ startw8BT0PeK1WVEk4KIZP8oL7cDgrzpag    / Congrats!                    \ 
+88wrS M4k6LhignorecasepZVEjay4pKuUWnv5rF        Remember that, to continue with the exercise, 
+Broy4quXyeyji9rM3gzPIN8OACwgTTQIsqomNWJp    ZMJ4kjIZ1jmv HtQ7aaIereTMjc8luh1z8r
+99YexFCstart ODp618uvLRic rox1C90ETt oky    |  You've used grep correctly, |
+wpqpkMHZWWLKQyDLxfXS0uMeYkM6LudTNYayY8Pq    Gca8VpxMSkqMcBXNEGYritDfxTr4veWazlK
+a4JmKzygCiHuqNIA57ll7ahO9hdKQSC0qwwPhOBh    q QJbdYsUcxxRPcSj4w0ESVHDN7rNryi9YV
+rq6aVEGmU0GcRDOdKuyignorecaseSATZ7fFnCHs        you need to do a case-insensitive search for the word
+scTlHeojKspgCwHVXc1HcrWA4htZkQe7MCClwU9R    wi1ZPHbwaROITORlfc5F6DpHoVtykvQPnfG
+hiESiBXNF0SLFIZxxxvxWsSNDDMmdakolgL DwhI    C8iIdrRtvhmmOlSZRoMPPAz66E19DSwckAc
+xmultiple fileswDLexje4d1QBKtHgbqjLgnyQO    
+uxWStXLXr4QStaPfdsJxDuotVlqVaITpmkssdlet    NPY6ef8CDavE073ICIa IYTQQujV6wQOvxe
+tWFAVDTyHPC6PacQXnSr8P start Bz9a4zh95qd    \  and found a cow.            /
+GF9QplNufZkAeTAQ1lJlPUWHcOqlRhC DdyVqSl6    KO4Xq8ZNt99SFP6xTKLk5NEJcqpB0EkzWwd
+wklwYgqExVG startrOMJeYq7DEbgy5r7bqE t7j     ------------------------------
+piGqcj57CG3fyk7VhMlryfVfS9MQDHascP6RByFY    rFgNP77ZPszZMYFGqVECk88Ud3Xk4zIrqyc
+e4WcEWNAKmXHPOt6LSe1XwtKo9q drtaRAOoVhaB    DuoFwS5m3Xo 5Kv9FaJqwIUwXqKLdF3MuWw
+CVwbFPw75f8spg0BMujn6TboDPrNtHQGFVn8bW6U    e0OVN5hjHJw8luRChS8bEXGOvOUo OC4zdP
+CfFdZ4V9EGNdIydDe3x6DcQB1C0NpedLqFEyRi5u    5eMZPNnACHpBi5yMbdQgOYVUTSAKGSPvVmW
+fkE4i1RiBhJd4McnLstartppOi3S3pqpxtG dME6            \   ^__^
+O RkmziihI3vr start cjZhBQCMZav8SDbDPoKK             \  (oo)\_______
+xG7oD3QOTBXUzZWOKckyJC5rEGWkA9QzKmpBlHjm    SdPj0WGcu7wM08YXoABAcY7BBxXLIrsggx 
+ZjvnexpXdLG5ZNWdocsIy38dEn3wRQVczadLTKRn    
+HcbXy48MJY3erqPzyhCdocsxA7t7pusjp v TBrp        The documentation for grep can be accessed through man:
+A1xC0fYvVTlL9JHGIUERolqNDyEZW3iDGPyExUPw    MUKj6IonOO5 IJMMw8OPmDLBnvlrZyJXdqM
+cTUV5K5xESflyvNk8PTEz5docsLOUFt1qL i0VCy    
+EAmOj7nYtVTxidH1GpZhaRSnUsUH5MV6kcN0RIpg    3CPKH1IBGXtkOdeUbNNGi0PtRhvUIWQDhga
+cmI3NPveJXatj3FnZ8IGsdUQmR7 OdocsnDfUDzu            $: man grep
+R6JrdocsSkVd0A8eqeDMsQ64pn1DLVT1vFu3fvGX        
+gsisatkY0xT start r4JBhCBV3bPxhULiO0VWfz                (__)\       )\/\ 
+maGcnf9docsyJLCuZOOar duZB6Ru3VhfgEdIjyZ        Scroll down to see all the parameters for grep and their description.
+WLsa4gcXGdq6eFetcTfiSzdDx1docs9HLP7sF3xp    
+0YdaAnfAlXTDdocsLAGZZzV7rd5lOZQzh1kmcOHq        Use / to search for text.
+5edocs5g7e9M5YpMjaPWDMpjbVWNSgbU7bK3TAbH        Press the q key to exit.
+n1RmhH9P9DTCbg startpKBPPq6oRjChyiqnz4EY                    ||----w |
+vbljq3NV1gsBb6U lQ0ASegiymywlmiMcEacxTsZ    s4GXGv1ea14gyiU1AppSuZpjAAJ91f6HSPT
+C psiizjDg7CkIdJanboRNNARiPJuw0tWiXV300F    exUAqkqIFgnj6qsENeYPG5Sk1UFi1vxgjME
+oj7HO8JhPIvv8hFqTVh7SP48H1zSdocs5HzlN0f0    
+e0xHXFnO0XANJyngQrBfO7HZrM3usfFwgURYhwg5    YkgQQrhiez MLubmA5Q5lHDD1mw zFbHYHR
+PJGPEj1IlACCAqx1e 7l3NKdocs5xKu 3ojdw53C    
+n oJl1cC CaBVscMt4lstartY9Kh1Pk760hGmjRA                    ||     ||
+Vab746kUHSmZAMyQnSJZm0J4dU6SqOtdln6T0h3L    NZNSjvCxPzydc89DPBxKf9xW9lJ8pms4QfM
+CvH1E48UuLnDI8dP3wbr vjTfdocstlnRTBAoQr     
+6pr3bJvgqTmEDNRJQIt VrfESdocs3v3DsCGeC8         ==============
+dfdcjdfcxKSNNmzYt0VfoHQK9kZaY Eo0iEHYKXN    1p7jfkZ8KOhCyiKSbN4vNeyqPHhTwKKUq5g
+IgqIAhbHtVgXJIaBF e TfXwKckMUdocsnW77nKM        Next exercise
+aCToKZp4vfX7sndj9vFKstart sYOHjAJMgkD9 k    
+taHYMWTqdJWTl9bxGG1F3koMnp EPMNydocsBWrt        ==============
+Jdocsjl1ZvhwzCsI5sdDbxGwxHoppPXOmRc9VZFi    
+31CqksqPff7JfEr3rRz7T5BBtTUlOl0WKhUlnnpM    OLe6xQKA5KA63pzQJ8aGavjJ8W0Kpm6E8x5
+Dstartbk53uIufqMVGY4avBnPgWkGXuTqV 9RkYn    
+ UnjPI8O6rEZFNYNHdocsWXMxpGsOkJQPGwN8ujg        For the next exercise, you will need to open grep's documentation and identify two options:
+Te7bebL7E3N0hSV5j start NmMjDJymg47mgmwY    
+WBhQJ88V7qXRACpxv4srESJKozsfsxhlzAdocslW    
+URIEMHh5uPsZra3NuAezOyurZn4K6z start rC0        The command grep allows to search for a pattern in a text file.
+GcWodK9F7obfM0pUfUqqPmoF6U1YAKJ7Y8We6Qxc    5CmjTqUxIiO yFz5F5nVfFXsmVPvk1aj sb
+odtT kIZ4A UI3VNTdldRBTlzdocsmFHPj0iFCI3        - the option for doing case-insensitive searches
+MIgwM1eV aCouUu4rK5VGoc3docsEuDjeRPBYEOZ        - the option for counting the number of matching lines, instead of printing them to the screen.
+GZtkGA0tUs amfpSxYZkDHLZ30YOmdocsDaQ8klQ    
+eeRJuJkQswTGY6agvi9wAh5HlRL0lSdkAqNTs48D    5YKJoAu1yPljVN6VdUDmYsKhN5oBrFkuL5b
+xHMqrZxDbXIYIkJNAXk8Uwb19xwgbsQdLTpr1jhX    jaDqZRecvZb6wNOak4UAjVWjxuRqgjo3TD0
+8kdWWziRg 5zLWqqBRaRYL9Vdp0OeHPdSm0eyJzC    10GmQTAOz8FBm8TqwXZyw6JYlG1glUsVvlV
+ajj5l8tJH0docsBjuTGmRfpGZTrlVivtbb00GIkh        Once you have identified these options, 
+oxxJLHXYAJ7MMhHnltS startFNqww8I0c9V1GMj        It will print all the matching lines to the screen.
+komEY0ZdaN0OIaqwbKqyOi0dLQz TVrhz8EkG3iQ    iuqGHtvkPNacSbwT1ZQBxgBgmJvRR0OM4oC
+oviacGgwz8sj7uFSB8yHidocsdITlC 40Wyz3uW8        do a case-insensitive search on this file for the word 
+guDmswjszp gHUvVBiUevtWrhP5Ti4jZgifvnu9y    U7IiM4Dp9WYZWuLKBSKsCLmUlBC9oWnUQ1s
+sc dGjHCA9y3jbeb7oeAVuPcJtuu4YVhCRh uaN     vdYphdrVilZooJzvw5GcjBBpK9m1irbzG3T
+CB VQ4nC 3JB0YIPvPm9eu3ESQmcbGiloUNTdocs        "ignorecase", then count the number of matching lines.
+aFG6DrZBwzlWe03docsrdHpMyL8HwE7V6VhZprlF    
+up48x63EOaT8wh7jFwb0Ic mT9cQsyHG6WQ4N7rG    7OQIxGNHRr7da EwaOF96MdH0SH83M sOoG
+Ob9CYDq ufsYZEHUtdSJ6CordocsoG50Ixxt3mk         
+PmJ NdYRwSWtIZvXaLTSufsntfzbTcWVM3M4Kvmd     h9u3DCWqGsq8CEVeb8nYOWPJbgclkSslLD
+v0B gE1start p1nJPBWxV6WFIKBW7kGoK7k6lnU    
+0d8zNFPxE 9x6IgnorEcaseJkoKQhQZ8ksFRdYUF    
+Ifdxi3foZr0fk6ZVcXHGF3lX oj9cDZQUvbzsxTm    0hO4qpF00TsV6SaP3RBI19uHZ1XtM IzVV 
+EW5NZQ6gTWbstartMlKVINP1D4B6zEEzwZSdFu6B        =================
+SLew LXVUUSHv8nFHrpxLRBnFgqxW6aJ8T muqSI    Av4ULAGZ8Wb4doHjDUgiVJWl1gQb Bh ADd
+IdCDstartFZkaRnuWYZ9vhBhrpq1TaiRpOlx5bG7        Next Exercise
+7jao04FFQh7grcL8MbmOJJeF7aVBT3cg9DHQgeMJ    9HBRRfF3DQuw dLV74NMU4WsDrAEqrEd36S
+ncPNki3lPKO0mVCUOtpCU3cU4lAbNxGV6oU69Gp7    gsYyJcM1I401vmAk9YSyQVnYYeiSt1K9Mu1
+g6ZP0PPqRRqJ3Dw gXlmXLJKd9uLjorwvc4JxqsE    rgxeKBbvk8 gJYVaWH3Mo98DECHGf1lfCDn
+5 startuqmf9LThu7agJCWtuPu35RT7XboBa8Tfd        =================
+ignorecaseYjQQOOJmZMbCf55P9tzab73kJcjjZH     _____________
+rGpMX66eIGNORECASETQhaVOKc7oUHgVUyFTrd s    / Good Job!   \ 
+xTaUO5ExpDPMBS9tOvhyL3rmkeuYQxuhtHd XmCL    JoijbZJDgKVJkKTmqOh9fpStCoxWjkuNKhc
+SkKjbDtVMZYVOkSBZVslGbx5KVM 3startvtuKLb    
+iKgM8izq9qEjugVignOrecaserYi4lqqU3ZYMdbY    | You did a   |
+tnkvPgvUJHFBqHfQDivVKypmVXRlPeRaXnEowR 4    LFOdVh9dcOWixoPijFQMa8nAF6X87TBnMH4
+9bIbR53aliLR7qJSdAiPdFjOT97mlnmKmjHGh0qJ    ja88x3TL13NjDg6zSyF9n07JaJtUjsKnTSJ
+tIRUxhUn XJNXyK53J7kyR7YxS453N0Vdy9cpXbJ    qPe4dJEKaeNDsbxuZjURazCAywmdfJMkps0
+uFc9cKM37Cstart pDOo4wiMvgNdNIiVGaPpl7Zp        In the next exercise we will see how to access grep's documentation.
+BPWvEGYvpTbRJavHkkRXIcp7UfuPZuNoD6dV78NL    4tcPsJdy sVgcCW6NEa rAlabxDWwgAQP75
+TKIQrdIkl6zaxrXQNPfOioUYuPOd3sMaCkKjQwAf    TfikLYX8ClGdzFHGGRRDO09rihqE7kjSaQz
+Mod5ug1OJhdIbC8BM4kIstart a vsqxgRBkZG6p    
+5Nmv1aOUVignOrecasecRPmwy4odOpJfHDSHDGMj    | case-insens |
+kMb6N HUiXSllOQwoDfb6Zjeevvk5ignorecaseP    | itive       |
+zfWojba7APJGXM9BPcR3  wIJP5zi6irYVGHxl6r    fclpUx6mtPnB4jLZ1B7DYlHYlKwJYb1IN9Z
+q3 YTj0pyndDZzZGQGcHC0KkJdmLAsiSfrU918Yt    DtvyDVh1bn3zduy6QRXewKhET39j8k8xFaD
+t830wrl j4AmHrNignorecaseKka iY3V3GZ3NOd    \ search      /
+Is0QywvpYeTBNF6jeX10cmRE0iQJtxD18bppb0IF    kVlnomuFyEXHZ31xFGNpkr0nbTmy DuzDRW
+YxFoPKL start ShBdkbS9TBUWLFpFCXnXPZjHck        Grep the following word to continue:
+LVyRnXPmZUIPF1UWfIGNORECASE InO6xSV8EN9i     -------------
+BPfoWU5qXZvHsmfJRWvorxFnrx9d1JD16tKEL8I9    LIcz9n3bLOnXNPpz9olonf1ScbfF3NlFEeo
+i70MWX5UWKBIGNORECASERFqX7pFH4wbqMhMaaGz            \   ^__^
+3X9 djOdPu17yK9gHhqNy ipIhaNU7gcwjrMtiiQ    4euqV9I6f7U0DsSIPs1o1hnLGZTOLwqARQX
+SRdRl QGgJApVhN6startoW0NQRvf0mxydsslz69    
+GH849774Wm4jjZbS T0CHiiCJ7c0xXgdODOQWdzI    D niVGaBbPGHM07ugHVqxQb1zAurko0nm9v
+kWx4E6ek4dA0s69OqX SYeHfnOBxMxygpNacVKiq    zSOcelajQxPexeRG3h3K35ApveExfmDYnWc
+zcyFI7rt0Zx9MOhzkX3FzfY49W4tM3aG0YKhk6TI    RLgVyPewejELLqrmpZMzY JJ9Z8FEdOEbaA
+CnbACsxJXbAlYROFtbgxDJXlpR1DnXFyEY9svwXc    Hsp1YU9ldvDWzZLh0kgCoyBhzHR5wx3UYBj
+ZoqTlNhSEgRKOvstartNIpBDNabtv3zMVikLxtk3                     | |                  
+lsbPZrlhQzoY6nM8DkUMFkBrh53fwiFibYIcu8XB    hXEGEOmgOuFzL4XXksehtNpUh3DbxGV iYv
+gR39LDIac0multiple filestqbP4tKuXPScE5nw    
+yHCyG35qSac21ecENB5MbmLF6FTEtFsJCVeWGlzw        Regular Expressions
+XwV3ytl5S7qaNq7oZXvd7PVbeEds5jt3i5Qub7O4    e8t9nFun34b55 1N918SeA0ZIcJBhzCNyiM
+bkZqClX FDuPrXQ7NbvTjEjGMAnd3WIdbzfrPqYY    vl9tubtFvtt0nXmJhpRQSV7mtqm1FesT1wd
+RkdFKiQY409sr zRizlMnuD5dZTXxLerM LetUQg    9mOuS7bgE0vfVwsWJ3ZVX 9F5mwdJOD4IXP
+3nDMiIwb0xZbeN4i WcIpdX9OVowXl1ARY LD710    6LCBMCWNcNE7S8dqP7Xlj6M5RbkusXT1HBA
+f9Astart5KGiGSJagMiPb0E5K ranID tsLR7UO1                   __| |  ___    ___  ___ 
+lThrfabdKyO7xp0jC3cEomultiple filesmsjni        Multiple files
+T4pnyHPHt3widWamjR qsH dpISEtaEjZYiAOI S    J35H4mv0spEuNogYyrzaGFcjRgaj7AIQBnW
+fH6gz97EjtDL31KfvrXTmYtTEhjX55VpnsTDQ8Ab    pe 1QhHCHTbgMWU1YLZ16D9p9lukMgp0mFq
+wurqpwd91jRC7 87wCUu3DDOWDbzEA oxtR11Vkq    0uEI GoEufLpJqRpTpJeZoeh4kBvS eccOo
+7Q4pN0NMyhhe9c start RRszNDezZxOHZCkgspc                  / _` | / _ \  / __|/ __|
+0i7pSignorecase3Nah9 mvVxuW7AmXAgwQMPGoo             \  (oo)\_______
+7m0v4CMI3HFtiiONyO4Py4UNTgD6CtzZgbXxHPWx    Djei UtHmHeoXVDL4tIUSDBPuSMQ00L9XvA
+RrvaVKyjTYGicl9wHIgnorEcasetb3WRu51UHj7c                (__)\       )\/\ 
+IGNORECASEFZ JM1mqrsoPAgEmpaEBgNOvX0fSXD                    ||----w |
+JOG HN8KpYA start5bXHGXcKCrgUBekQmuHfi L                 | (_| || (_) || (__ \__ \ 
+wSF0T1LrzeYY9EyNdrao3 DIGNORECASEHqVQXV7                    ||     ||
+21rmLDkUjJZgFxx8VYFXO01gyTUGkTENOqoYzkJA    
+xi90tKjWIN9d4OPDezinWRbSVSyrqs4XUAYks xU    Pg3provSEEb3g5aIPinBDw3LQxrf01gaUNf
+N17TSSy4ZCCSzKf0LVJCDZ0start 6cyxxNRoZdT                  \__,_| \___/  \___||___/
+dQcGIGNORECASEF1M1iVSoqdLm4O6mSRToIBasiZ    
+IZYOd4QMwTCXd1ErRb7UfWp17u9rGW7EKwQjn0nu    t6onHCJ0fpLRmcjYSZe1VOXiYwJhk wt1pm
+5F1EvKmultiple filesJE7L537nnLMYqUFvZMVT    
+v7ca3c880b5HyROOlWJ1WKMv ignOrecaseWu9UM    
+LCb4qkiIfq5tWJjV8H4LnIopHeSa du0nru5PIgg    1P1HpsaEygbPaadBkJukAQ9tWngMkEvIcVB
+6IgnorEcaseEerwBhN1Zg BDqe1gmlHtHXFS3lvK        
+MP0YEpMvppDTwx start GjJKe8Jl70P wEszcSb    
+DU99P0vcV21NDPqrAaBGMkNMKKqbyMCQVG6cEO5X        
+EBoQiIHnH5k3X start6ZZVHY9WQGQdWgcBFcRgg    
+B npGa6wTpUKY4ZBhToJiEo KrA466Mo7KiCRjKN    9B4iWEWvm18FOVF5Bnz6p30vB3BEBUKasYg
+5VGBCJ4PokaF7vqfME7GCEM8Utgr3nOQCQqlLYLF    XGocVHvaX aw8bwIAsX1G16HYJF9tW8rxlU
+vIVBR64f48PSDDyXkP7vhbAHDkLS9g3JZEmdoy5W    5htmD0erhf9OSxhZtNodSGmOLKL0SnUH64N
+5ZEN7qyqkaNEOsqBwMoc3Q4ZR9ia0u kKLD5QlSz    hG DpA3j94SHCbQVYwoZPYHwOymwiF0Srua
+aw9Q5BRcZaFVJC8MJ9WnSZ0JZlanOpVLiYuKE99r    35yxOtWuCPXDLploqJVUtEYdl544pb3mjRM
+n77n9LcUeC 4MtBN0ewrQtpS7 jA6ZOZFxSiflX5     kbsVi9vvEZePeidmLpPOEqZSOvhrSdD7EQ
+SLR8cNJANx7RXh58eV1cgOP8zRZdbnEAAhO BFs7    OEPEnG4V3L9onv9I9TkkMo8HbNdXuwZhPFm
+FZWtJo NzQ4CZtIf3ypsSE5B8vfXVDPo8PTs5MhA    AzcoFCJol67dvXAaEeXFuE I36Fo0789n88
+cXfDqgOiF1by GyaFNqOUdt3k3bk5WEsu5XUq9nA    PrryS9AcUBBhglSyYT3xj8gFGETJ0kcxCpt
+x8KCgcVYItrBZoiRDGbu6ceHuO6bi6vXiwb5azgz    4fWNFOqQFX9sqtRJLxZbXW5PYMkkOaMItmA
+hi4FtDkeiBHs3F17Jc7NEV gQymultiple files        
+RaQJDHkwYLXaHQB9fiY8R1bDiivVkKUTL3DBLb9r    C1JIlvXcqEdhzoFVWUkvvknMW 9dIc6Gpbk
+MK5nKsOJsX4cNn1KIHOckpGXlPPqLzk4yYpqSr1t    GXosoRR5tF7aUxR4YmftvpF4sE3sQXiMJmo
+RHLMRfbIjIRftUXOOSCyQ1g73sM4oetLVvr9W6Ry    wvfXFk7sLxwUwgUymyXbzqFI0F6Rp6x8UDg
+MZcn4qtUZUOKrfkMXLJyjr80xaVAfxOR10amKzOi    yrjJ4vbA TUeWdUyuZxFp3drcuU8arB3RsG
+bG3DJKkcIUmSnUDF3QiEPPlEVlA Wp5fxTnTaP q    cjWKxL7DNU4ztvJtPu0sWPT6fwn gW 7Zhg
+iADvbVz nUf3hDHIZVHDvgNRCwYzgFiJzcdmQzrj    pCNbrsFPYI1vGURermW1y0l3VthqoreNzt8
+X64H7v5tJAyvxl6OaXBINbRHE9Mxzwo9nhHzlkno    83GGhB8gNN5YeALXBzDbOKkvlqSUQgx66uC
+bFMmVpm4TJCU0WAqBsdnQeBujZpFnfsA1qgP6H9i    Qp9o4CGtaIN GXwFWMRdjRbbRBtW1OK63K 
+f0QpMutnQirnGiVF50iLUai1L f5zEapObX Yu8R    6g LNR5Cz61EVSUjRvoPLBU5VLbM6tbQ10S
+Ehzygdin1TYgsfJPtcxomSzvNDVXLBBNHj13TcGQ    FSZIdhIW8zQxYYWrdGJ9XMm86dkxhj5lh0R
+mHYJF 8gzAQ7zA8rnyzVW0GTsBLDWhlnPxqS9umm    gDEdRl1Q0dPdaY6KMPC9Tvp97 gWOHKsWCR
+ENnA0LsXyqkxHQngud1MTs9LxVT8wcw 9GbhOUCU    Qig1tjMX1OepDR1L1QeDj7uQA6sLyejLQ3d
+OhIFD lGmXEq1758CmPYeFREKbhvzLzClTYLab6L    61Mwu8gwW39pGIjVlSU4wuvKnr vzQXBZTJ
+LVsuZGP6HUmQclwRWSO9jIzkwNdqVYBZRrQshS3w    hQR9Alf5KcNhYovY7nnbXWuxLpUxa5DOODa
+WpdNzYUwFkdzijq6txiFDRBTCvb01T9rBhWBigEY    gm6D0qZmq0Nfgb7yx95Dg4tbKwwwDlvmpUC
+YA7G1BIpQ08hBXR5AApbO18IJ4qPNbdhXTZdLFwD    HKLwT0tTSggChkTCs3leJ3vDSqWzXe4o1Mc
+JmVBPOkctw0wxIAOVEcmi3b5NITxA33sB83LiRiW    OhUyRs7IpNA96mtQ7WBPTv dfCiYHcXTSiO
+o1EwTATYISlznHIWsuuRbKcdxeEr6vnT7YMSRFSK    CT6vxf7omZheFt76QgCgRwa0skecFzWbYyJ
+M4g6gXsDZYVcwzGvLrvF6YTimgybzxlsqtWiu6wf    yB0KtIkgGzzCLPtZpLJXssmoxKGaITW7BvI
+l0j8j8fMYWqDMHJLoGMkl86LE47MdJn0iKdtAVov    DvFwP5otUDlnEUewJl5jJUoz4DGQELoZM5A
+AUc0mxJT6CFcBqP84Ow7BjfvIEyg7foPjmFhZyZj    W4rxSU4a1DG3yuZefVdyEZ WsglRMAfpSa9
+fid4JH4RxAbDXmJkfzmt3xhzBZgwjmpg355X6TwF    Dvuqqk0YvXdfvsc7OEelRH6kTpTXsoGVHLx
