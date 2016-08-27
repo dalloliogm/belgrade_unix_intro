@@ -132,7 +132,21 @@ Next Exercise
 ==============
 
 Use the -B option of grep to identify all the
-    ''')
+    '''),
+    TutorialMessage('secrets','''
+ _____________
+( There are   )
+( no secrets  )
+( in this     )
+( tutorial, I )
+( swear       )
+ -------------
+        o   ^__^
+         o  (oo)\_______
+            (__)\       )\/\ 
+                ||----w |
+                ||     ||
+''')
     ]
 
 multiplefiles_message = TutorialMessage('regex', '''

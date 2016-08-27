@@ -99,6 +99,6 @@ def generate_tutorial(tutorial_messages, outputfile='data/exercise1_grep.txt'):
 if __name__ == '__main__':
     print ("generating main tutorial")
     generate_tutorial(tutorial_messages)
-    print ("generating grep * exercise")
-    generate_multiplefiles()
+#    print ("generating grep * exercise")
+#    generate_multiplefiles()
 
