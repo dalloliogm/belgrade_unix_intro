@@ -1,14 +1,44 @@
 import string,random
 import re
+from Bio import SeqIO
+from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
+from Bio.Alphabet import generic_dna
 from tutorial_text import *
 #from src.tutorial_text import *
 
 
-def random_string(length=80):
+def random_string(length=80, alphabet='chars'):
     """
     Generate a random string, to create the base file
+
+    @alphabet: 
+        'chars': random letters and numbers (excluding number 2)
+        'dna' : 'ACTGN'
+
     """
-    return ''.join(random.SystemRandom().choice(string.ascii_letters + '013456789' + ' ') for _ in range(length))
+    if alphabet == 'chars':
+        characters = string.ascii_letters + '013456789' + ' '
+    else:
+        characters = 'ACTGN'
+    return ''.join(random.SystemRandom().choice(characters) for _ in range(length))
+
+def random_sequences(nseqs=50):
+    """
+    Generate random fasta sequence records
+    """
+    seqs = [SeqRecord(
+        Seq(random_string(30, 'dna'), alphabet=generic_dna), 
+        id='seq{0:03}'.format(i), name='seq{0:03}'.format(i), 
+        description = 'sequence description') for i in range(nseqs)]
+
+    # TODO: include hidden message
+
+    SeqIO.write(seqs, open('data/sequences.fasta', 'w'), format='fasta')
+    
+    return seqs
+
+
 
 def generate_basefile(lines=400):
     """
@@ -101,4 +131,6 @@ if __name__ == '__main__':
     generate_tutorial(tutorial_messages)
 #    print ("generating grep * exercise")
 #    generate_multiplefiles()
+    print ("generating random fasta sequences")
+    random_sequences()
 
