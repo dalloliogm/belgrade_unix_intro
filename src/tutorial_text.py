@@ -111,7 +111,7 @@ Searching in multiple files
 Grep can search the same pattern
 in more than one file at the same time.
 
-The folder data/manyfiles/ contains hundreds of different files.
+The folder data/multiplefiles/ contains hundreds of different files.
 
 Can you identify the file containing the word "regex"?
 
