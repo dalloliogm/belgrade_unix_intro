@@ -80,7 +80,7 @@ tutorial_messages = [
     you need to do a case-insensitive search for the word
     "ignorecase".
 
-    ''', maxline=200
+    ''', maxline=50
     ),
     TutorialMessage(['ignorecase', 'IgnorEcase', 'IGNORECASE'], 'data/exercises1.grep', '''
  _____________
@@ -97,7 +97,7 @@ tutorial_messages = [
                 ||     ||
 
 
-    ''', minline=300),
+    ''', minline=60),
     TutorialMessage('regex', 'data/exercises1.grep', '''
 
     Regular Expressions

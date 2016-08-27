@@ -22,7 +22,7 @@ def generate_basefile(lines=100):
 
     return output
 
-def hide_message(inputtext, message = '', label = 'MRK1'):
+def hide_message(inputtext, message = '', label = 'MRK1', minline=0, maxline=None):
     """
     Given an input text (from a file) and a label keyword, hide a message in it.
 
@@ -43,7 +43,11 @@ def hide_message(inputtext, message = '', label = 'MRK1'):
     message_l = re.split('\n', message)
     output = re.split('\n', inputtext)
 
-    newlines_index = sorted(random.sample(range(len(output)), len(message_l)))
+    if maxline is None:
+        maxline = len(output)
+    
+    newlines_index = sorted(random.sample(range(minline, maxline), len(message_l)))
+    print label, newlines_index
 
     counter = 0
     for msg in message_l:
@@ -52,7 +56,7 @@ def hide_message(inputtext, message = '', label = 'MRK1'):
             current_label = random.choice(label)
         else:
             current_label = label
-        print current_label
+#        print current_label
 
         baseline = random_string(40) + '    ' + random_string(35) + '\n'
         label_index = random.randint(0, 40-len(current_label))
@@ -72,7 +76,8 @@ def generate_tutorial(tutorial_messages):
 
     for x in range(len(tutorial_messages)):
         current_message = tutorial_messages[x]
-        outputfile = hide_message(outputfile, current_message.text, current_message.label)
+        outputfile = hide_message(outputfile, current_message.text, 
+                current_message.label, current_message.minline, current_message.maxline)
 
     f = open('data/exercise1_grep.txt', 'w')
     f.write(outputfile)
