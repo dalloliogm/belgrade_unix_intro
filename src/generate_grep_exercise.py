@@ -10,7 +10,7 @@ def random_string(length=80):
     """
     return ''.join(random.SystemRandom().choice(string.ascii_letters + '013456789' + ' ') for _ in range(length))
 
-def generate_basefile(lines=100):
+def generate_basefile(lines=400):
     """
     Generate a base file, filled with random characters, in two columns
     """
