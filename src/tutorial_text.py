@@ -7,14 +7,13 @@ class TutorialMessage:
     Using a class is a bit more organized than a dictionary,
     because we make sure that each element has the same structure
     '''
-    def __init__(self, index, label, filename, text):
+    def __init__(self, label, filename, text):
         self.label      = label
         self.filename   = filename
         self.text       = text
-        self.index      = index
 
 tutorial_messages = [
-        TutorialMessage(0, 'start', 'data/exercise1_grep.txt', """
+        TutorialMessage('start', 'data/exercise1_grep.txt', """
  ______________________________
 / Congrats!                    \ 
 |  You've used grep correctly, |
@@ -46,7 +45,7 @@ tutorial_messages = [
               \__,_| \___/  \___||___/
 
 """),
-    TutorialMessage(1, 'docs', 'data/exercise1_grep.txt', """
+    TutorialMessage('docs', 'data/exercise1_grep.txt', """
     The documentation for grep can be accessed through man:
 
         $: man grep
@@ -72,9 +71,21 @@ tutorial_messages = [
 
     """
     ),
-    TutorialMessage(2, '--ignore-case', 'data/exercises1.grep', '''
+    TutorialMessage('ignore-case', 'data/exercises1.grep', '''
         
     Case insensitive
+
+    '''
+    ),
+    TutorialMessage('regex', 'data/exercises1.grep', '''
+
+    Regular Expressions
+
+    '''), 
+
+    TutorialMessage('multiple files', 'data/exercises1.grep', '''
+
+    Multiple files
 
     ''')
     ]
