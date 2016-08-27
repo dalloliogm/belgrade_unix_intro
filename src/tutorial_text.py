@@ -107,13 +107,33 @@ you need to do a case-insensitive search for the word''', maxline=20),
     ''', minline=80),
     TutorialMessage('21', 'data/exercises1.grep', '''
 
-    Regular Expressions
+Searching in multiple files
+
+Grep can search the same pattern
+in more than one file at the same time.
+
+The folder data/manyfiles/ contains hundreds of different files.
+
+Can you identify the file containing the word "regex"?
 
     '''), 
-    TutorialMessage('multiple files', 'data/exercises1.grep', '''
+    TutorialMessage('regex', 'data/exercises1.grep', '''
 
-    Multiple files
+Regular Expressions allow to identify complex pattern.
 
+The folder data/fasta/ contains some sequence files.
+You can open one of them with less, or do head data/fasta/* to see their contents.
+
+Can you use grep to identify 
+all the sequence lines containing 
+the nucleotides AAA, followed by any character, and then TTT?
+
+==============
+Next Exercise
+==============
+
+Use the -B option of grep to identify all the:w
+v
     ''')
     ]
 
