@@ -69,18 +69,26 @@ def hide_message(inputtext, message = '', label = 'MRK1', minline=0, maxline=Non
     output = '\n'.join(output)
     return output
 
+def generate_multiplefiles():
+    """
+    Generate multiple files for the grep * exercise.
+    """
+    for n in range(50):
+        f = generate_basefile(lines=200)
+        if n == 32:
+            print
 
-def generate_tutorial(tutorial_messages):
+def generate_tutorial(tutorial_messages, outputfile='data/exercise1_grep.txt'):
 #    outputfiles = [generate_basefile() for x in range(2)]
-    outputfile = generate_basefile()
+    output = generate_basefile()
 
     for x in range(len(tutorial_messages)):
         current_message = tutorial_messages[x]
-        outputfile = hide_message(outputfile, current_message.text, 
+        output = hide_message(output, current_message.text, 
                 current_message.label, current_message.minline, current_message.maxline)
 
-    f = open('data/exercise1_grep.txt', 'w')
-    f.write(outputfile)
+    f = open(outputfile, 'w')
+    f.write(output)
     f.close()
 
 

@@ -7,15 +7,14 @@ class TutorialMessage:
     Using a class is a bit more organized than a dictionary,
     because we make sure that each element has the same structure
     '''
-    def __init__(self, label, filename, text, minline=0, maxline=None):
+    def __init__(self, label, text, minline=0, maxline=None):
         self.label      = label
-        self.filename   = filename
         self.text       = text
         self.minline    = minline
         self.maxline    = maxline
 
 tutorial_messages = [
-        TutorialMessage(['start', ' start ', ' start', 'start '], 'data/exercise1_grep.txt', """
+        TutorialMessage(['start', ' start ', ' start', 'start '], """
  ______________________________
 / Congrats!                    \ 
 |  You've used grep correctly, |
@@ -53,7 +52,7 @@ Grep the following word to continue:
                  |_|  
 
 """),
-    TutorialMessage('help', 'data/exercise1_grep.txt', """
+    TutorialMessage('help', """
 The documentation for grep can 
 be accessed through man:
 
@@ -85,11 +84,11 @@ do a case-insensitive search on this file for the word
 
     """, minline=27, maxline = 78
     ),
-    TutorialMessage('ignorecase', 'data/exercises1.grep', '''
+    TutorialMessage('ignorecase', '''
         
 Remember that, to continue with the exercise, 
 you need to do a case-insensitive search for the word''', maxline=20),
-    TutorialMessage(['ignOrecase', 'ignorecase', 'IgnorEcase', 'IGNORECASE'], 'data/exercises1.grep', '''
+    TutorialMessage(['ignOrecase', 'ignorecase', 'IgnorEcase', 'IGNORECASE'], '''
  _____________
 / Good Job!   \ 
 | You did a   |
@@ -105,7 +104,7 @@ you need to do a case-insensitive search for the word''', maxline=20),
 
 
     ''', minline=80),
-    TutorialMessage('21', 'data/exercises1.grep', '''
+    TutorialMessage('21', '''
 
 Searching in multiple files
 
@@ -117,7 +116,7 @@ The folder data/manyfiles/ contains hundreds of different files.
 Can you identify the file containing the word "regex"?
 
     '''), 
-    TutorialMessage('regex', 'data/exercises1.grep', '''
+    TutorialMessage('regex', '''
 
 Regular Expressions allow to identify complex pattern.
 
