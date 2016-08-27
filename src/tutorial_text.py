@@ -136,3 +136,12 @@ v
     ''')
     ]
 
+multiplefiles_message = TutorialMessage('regex', '''
+
+Good! You've found the 
+file containing the word "regex"
+
+To continue, 
+grep file32.txt data/exercise1_grep.txt
+
+''')

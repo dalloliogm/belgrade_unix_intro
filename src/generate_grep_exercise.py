@@ -74,9 +74,13 @@ def generate_multiplefiles():
     Generate multiple files for the grep * exercise.
     """
     for n in range(50):
-        f = generate_basefile(lines=200)
+        output = generate_basefile(lines=40)
         if n == 32:
-            print
+            output = hide_message(output, multiplefiles_message.text,
+                    multiplefiles_message.label, 0, 30)
+        f = open("data/multiplefiles/file" + str(n) + '.txt', 'w')
+        f.write(output)
+        f.close()
 
 def generate_tutorial(tutorial_messages, outputfile='data/exercise1_grep.txt'):
 #    outputfiles = [generate_basefile() for x in range(2)]
@@ -93,5 +97,8 @@ def generate_tutorial(tutorial_messages, outputfile='data/exercise1_grep.txt'):
 
 
 if __name__ == '__main__':
+    print ("generating main tutorial")
     generate_tutorial(tutorial_messages)
+    print ("generating grep * exercise")
+    generate_multiplefiles()
 
