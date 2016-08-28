@@ -6959,7 +6959,7 @@ DBLINK      BioProject: PRJNA33843
             Assembly: GCF_000003055.6
 KEYWORDS    WGS; RefSeq.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus			   _______________
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -9567,7 +9567,7 @@ DBLINK      BioProject: PRJNA13366
             Assembly: GCF_000003205.7
 KEYWORDS    WGS; RefSeq.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus		          < Well guessed! >
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -9732,7 +9732,7 @@ DBLINK      BioProject: PRJNA33843
             Assembly: GCF_000003055.6
 KEYWORDS    WGS; RefSeq.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus			   ---------------
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -10525,7 +10525,7 @@ VERSION     GK000015.2  GI:257481330
 DBLINK      Project: 32899
 KEYWORDS    WGS; Third Party Data; TPA; TPA:assembly.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus					\   ^__^
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -10850,7 +10850,7 @@ DBLINK      BioProject: PRJNA13366
             Assembly: GCF_000003205.7
 KEYWORDS    WGS; RefSeq.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus					 \  (oo)\_______
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -11334,7 +11334,7 @@ DBLINK      BioProject: PRJNA13366
             Assembly: GCF_000003205.7
 KEYWORDS    WGS; RefSeq.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus			  		    (__)\       )\/\
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -11510,7 +11510,7 @@ DBLINK      BioProject: PRJNA33843
             Assembly: GCF_000003055.6
 KEYWORDS    WGS; RefSeq.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus						||----w |
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -11902,7 +11902,7 @@ DBLINK      BioProject: PRJNA33843
             Assembly: GCF_000003055.6
 KEYWORDS    WGS; RefSeq.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus						||     ||
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -15292,7 +15292,7 @@ ACCESSION   NM_001101861 XM_582330
 VERSION     NM_001101861.1  GI:156120370
 KEYWORDS    RefSeq.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus				===============
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -18449,7 +18449,7 @@ ACCESSION   AY675174
 VERSION     AY675174.1  GI:50541688
 KEYWORDS    .
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus				Next Exercise
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -21522,7 +21522,7 @@ ACCESSION   NM_205793
 VERSION     NM_205793.2  GI:148232524
 KEYWORDS    RefSeq.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus				===============
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -21818,7 +21818,7 @@ ACCESSION   NM_001001154
 VERSION     NM_001001154.1  GI:47564053
 KEYWORDS    RefSeq.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus				To continue, grep
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -23092,7 +23092,7 @@ VERSION     XM_010800481.2  GI:983011101
 DBLINK      BioProject: PRJNA13366
 KEYWORDS    RefSeq.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus				"regex" in
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -23183,7 +23183,7 @@ VERSION     XM_015469405.1  GI:983007330
 DBLINK      BioProject: PRJNA13366
 KEYWORDS    RefSeq; includes ab initio.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus				data/exercise1_grep.txt
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
