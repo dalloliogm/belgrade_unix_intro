@@ -52,7 +52,7 @@ Grep the following word to continue:
                  |_|  
 
 """),
-    TutorialMessage('help', """
+    TutorialMessage(['help', ' help ', 'help '], """
 The documentation for grep can 
 be accessed through man:
 
