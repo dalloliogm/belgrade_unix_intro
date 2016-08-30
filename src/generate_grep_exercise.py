@@ -23,18 +23,30 @@ def random_string(length=80, alphabet='chars'):
         characters = 'ACTGN'
     return ''.join(random.SystemRandom().choice(characters) for _ in range(length))
 
-def random_sequences(nseqs=50):
+def random_sequences(nseqs=50, message = '', label='AAACTTT'):
     """
-    Generate random fasta sequence records
+    Generate random fasta sequence records, and add an hidden message at a given position
     """
+    seq_len = 30
     seqs = [SeqRecord(
-        Seq(random_string(30, 'dna'), alphabet=generic_dna), 
+        Seq(random_string(seq_len, 'dna'), alphabet=generic_dna), 
         id='seq{0:03}'.format(i), name='seq{0:03}'.format(i), 
         description = 'sequence description') for i in range(nseqs)]
 
     # TODO: include hidden message
+    message_l = message.split()
 
-    SeqIO.write(seqs, open('data/sequences.fasta', 'w'), format='fasta')
+    newlines_index = sorted(random.sample(range(2, len(seqs)), len(message_l)))
+    counter = 0
+    for msg_line in message_l:
+        current_seq = seqs[newlines_index[counter]]
+        name = name + '      ' + msg_line
+        label_index = random.randint(0, seq_len - len(label))
+        newseq = current_seq[0:label_index] + label + current_seq[label_index:]
+
+    print (newlines_index)
+
+#    SeqIO.write(seqs, open('data/sequences.fasta', 'w'), format='fasta')
     
     return seqs
 
@@ -80,7 +92,7 @@ def hide_message(inputtext, message = '', label = 'MRK1', minline=0, maxline=Non
 #    print label, newlines_index
 
     counter = 0
-    for msg in message_l:
+    for msg_line in message_l:
 
         if type(label) == type([]): # Multiple label messages (e.g. IgnoRecAse)
             current_label = random.choice(label)
@@ -90,7 +102,7 @@ def hide_message(inputtext, message = '', label = 'MRK1', minline=0, maxline=Non
 
         baseline = random_string(40) + '    ' + random_string(35) + '\n'
         label_index = random.randint(0, 40-len(current_label))
-        newline = baseline[0:label_index] + current_label + baseline[label_index+len(current_label):40] + '    ' + msg
+        newline = baseline[0:label_index] + current_label + baseline[label_index+len(current_label):40] + '    ' + msg_line
         
         current_newline_index = newlines_index[counter]
         counter += 1
