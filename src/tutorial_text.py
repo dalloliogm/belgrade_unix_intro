@@ -16,7 +16,7 @@ class TutorialMessage:
 tutorial_messages = [
         TutorialMessage(['start', ' start ', ' start', 'start '], """
  ______________________________
-/ Congrats!                    \ 
+/ Congrats!                    \  
 |  You've used grep correctly, |
 \  and found a cow.            /
  ------------------------------
@@ -107,7 +107,7 @@ you need to do a case-insensitive search for the word''', maxline=20),
     TutorialMessage('21', '''
 
  ________________
-/ Congrats! Yes  \
+/ Congrats! Yes  \ 
 | there are 21   |
 | lines          |
 | containing the |
@@ -117,7 +117,7 @@ you need to do a case-insensitive search for the word''', maxline=20),
  ----------------
         \   ^__^
          \  (oo)\_______
-            (__)\       )\/\
+            (__)\       )\/\  
                 ||----w |
                 ||     ||
 
