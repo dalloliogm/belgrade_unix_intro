@@ -106,6 +106,26 @@ you need to do a case-insensitive search for the word''', maxline=20),
     ''', minline=185),
     TutorialMessage('21', '''
 
+ ________________
+/ Congrats! Yes  \
+| there are 21   |
+| lines          |
+| containing the |
+| word           |
+| "ignorecase"   |
+\ in this file   /
+ ----------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+=============
+Next exercise
+=============
+
 Searching in multiple files
 
 Grep can search the same pattern
@@ -116,11 +136,7 @@ The folder data/multiplefiles/ contains hundreds of different files.
 Can you identify the file containing the word "piping"?
 
     '''), 
-    TutorialMessage('piping', '''
-Piping and grep
-
-    '''),
-    TutorialMessage('regex', '''
+    TutorialMessage('file32', '''
 
 Regular Expressions allow to identify complex pattern.
 
