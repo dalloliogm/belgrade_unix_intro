@@ -4,8 +4,10 @@ from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 from Bio.Alphabet import generic_dna
-from tutorial_text import *
-#from src.tutorial_text import *
+try: 
+    from tutorial_text import *
+except ImportError:
+    from src.tutorial_text import *
 
 
 def random_string(length=80, alphabet='chars'):
@@ -23,7 +25,7 @@ def random_string(length=80, alphabet='chars'):
         characters = 'ACTGN'
     return ''.join(random.SystemRandom().choice(characters) for _ in range(length))
 
-def random_sequences(nseqs=50, message = '', label='AAACTTT'):
+def random_sequences(nseqs=50, message = 'this\nis\na\ntest\nmessage', label='AAACTTT'):
     """
     Generate random fasta sequence records, and add an hidden message at a given position
     """
@@ -34,17 +36,25 @@ def random_sequences(nseqs=50, message = '', label='AAACTTT'):
         description = 'sequence description') for i in range(nseqs)]
 
     # TODO: include hidden message
+    print('dasda')
     message_l = message.split()
 
     newlines_index = sorted(random.sample(range(2, len(seqs)), len(message_l)))
     counter = 0
     for msg_line in message_l:
         current_seq = seqs[newlines_index[counter]]
-        name = name + '      ' + msg_line
+        counter += 1
+        print (current_seq)
+        desc = current_seq.description
+        seq = current_seq.seq
+        new_desc = desc + '      ' + msg_line
         label_index = random.randint(0, seq_len - len(label))
-        newseq = current_seq[0:label_index] + label + current_seq[label_index:]
+        new_seq = seq[0:label_index] + label + seq[label_index+len(label):]
 
-    print (newlines_index)
+        current_seq.seq = new_seq
+        current_seq.description = new_desc
+
+#    print (newlines_index)
 
 #    SeqIO.write(seqs, open('data/sequences.fasta', 'w'), format='fasta')
     
