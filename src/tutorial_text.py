@@ -106,15 +106,13 @@ you need to do a case-insensitive search for the word''', maxline=20),
     ''', minline=185),
     TutorialMessage('21', '''
 
- ________________
-/ Congrats! Yes  \ 
-| there are 21   |
-| lines          |
-| containing the |
-| word           |
-| "ignorecase"   |
-\ in this file   /
- ----------------
+ ____________________
+/ Congrats! Yes      \ 
+| the answer to the  |
+| case-insensitive   |
+| and count question |
+| is 21.             /
+ --------------------
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\  
