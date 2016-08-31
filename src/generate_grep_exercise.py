@@ -42,14 +42,20 @@ def random_sequences(nseqs=50, message = 'this\nis\na\ntest\nmessage', label='AA
     newlines_index = sorted(random.sample(range(2, len(seqs)), len(message_l)))
     counter = 0
     for msg_line in message_l:
+        if type(label) == type([]): # Multiple label messages (e.g. IgnoRecAse)
+            current_label = random.choice(label)
+        else:
+            current_label = label
+#        print current_label
+
         current_seq = seqs[newlines_index[counter]]
         counter += 1
         print (current_seq)
         desc = current_seq.description
         seq = current_seq.seq
         new_desc = desc + '      ' + msg_line
-        label_index = random.randint(0, seq_len - len(label))
-        new_seq = seq[0:label_index] + label + seq[label_index+len(label):]
+        label_index = random.randint(0, seq_len - len(current_label))
+        new_seq = seq[0:label_index] + current_label + seq[label_index+len(current_label):]
 
         current_seq.seq = new_seq
         current_seq.description = new_desc
