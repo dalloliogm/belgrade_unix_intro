@@ -176,3 +176,17 @@ To continue,
 grep file32.txt data/exercise1_grep.txt
 
 ''')
+
+
+dnamessage = TutorialMessage(['AAActTTT', 'AAAccTTT', 'AAAaaTTT', 'AAAgtTTT'], '''
+ ________________
+/ Congrats! This \  
+| was the last   |
+\ grep exercise  / 
+ ----------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\  
+                ||----w |
+                ||     ||
+''')

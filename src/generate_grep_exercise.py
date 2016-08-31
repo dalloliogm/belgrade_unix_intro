@@ -35,9 +35,7 @@ def random_sequences(nseqs=50, message = 'this\nis\na\ntest\nmessage', label='AA
         id='seq{0:03}'.format(i), name='seq{0:03}'.format(i), 
         description = 'sequence description') for i in range(nseqs)]
 
-    # TODO: include hidden message
-    print('dasda')
-    message_l = message.split()
+    message_l = re.split('\n', message)
 
     newlines_index = sorted(random.sample(range(2, len(seqs)), len(message_l)))
     counter = 0
@@ -50,7 +48,7 @@ def random_sequences(nseqs=50, message = 'this\nis\na\ntest\nmessage', label='AA
 
         current_seq = seqs[newlines_index[counter]]
         counter += 1
-        print (current_seq)
+#        print (current_seq)
         desc = current_seq.description
         seq = current_seq.seq
         new_desc = desc + '      ' + msg_line
@@ -62,7 +60,7 @@ def random_sequences(nseqs=50, message = 'this\nis\na\ntest\nmessage', label='AA
 
 #    print (newlines_index)
 
-#    SeqIO.write(seqs, open('data/sequences.fasta', 'w'), format='fasta')
+    out = SeqIO.write(seqs, open('data/genes/sequences.fasta', 'w'), format='fasta')
     
     return seqs
 
@@ -160,5 +158,5 @@ if __name__ == '__main__':
 #    print ("generating grep * exercise")
 #    generate_multiplefiles()
     print ("generating random fasta sequences")
-    random_sequences()
+    random_sequences(50, dnamessage.text, dnamessage.label)
 
