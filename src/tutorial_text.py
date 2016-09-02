@@ -186,7 +186,7 @@ dnamessage = TutorialMessage(['AAActTTT', 'AAAccTTT', 'AAAaaTTT', 'AAAgtTTT'], '
  ----------------
         \   ^__^
          \  (oo)\_______
-            (__)\       )\/\  
+             (__)\       )\/\  
                 ||----w |
-                ||     ||
+                ||       ||
 ''')
