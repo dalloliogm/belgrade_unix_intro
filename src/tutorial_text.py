@@ -131,7 +131,7 @@ in more than one file at the same time.
 
 The folder data/multiplefiles/ contains hundreds of different files.
 
-Can you identify the file containing the word "piping"?
+Can you identify the file containing the word "regex"?
 
     '''), 
     TutorialMessage('file32', '''
