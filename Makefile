@@ -1,6 +1,10 @@
 test_exercises: start help ignorecase multiplefiles
 generate_exercises: generate_grep generate_awk
 
+testrule:
+	echo this is a Makefile rule
+	echo You can associate it to as many commands you want
+
 notebook:
 	jupyter nbconvert --to notebook --execute PEB\ Bash\ Workshop.ipynb
 
@@ -33,3 +37,6 @@ regex:
 
 awk1:
 	awk '$$1=="chr8" && $$4>100000 && $$5<200000 ' data/genes/chr8.gff
+
+cow:
+	@cowsay -W 12 'I hope you have enjoyed the workshop :-)'
