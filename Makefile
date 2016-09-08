@@ -38,5 +38,14 @@ regex:
 awk1:
 	awk '$$1=="chr8" && $$4>100000 && $$5<200000 ' data/genes/chr8.gff
 
+slides: slides_bash slides_bioc
+
+slides_bash:
+	jupyter nbconvert --to slides --post serve PEB\ Bash\ Workshop.ipynb
+
+slides_bioc:
+	jupyter nbconvert --to slides --post serve PEB\ Bioconductor\ Workshop.ipynb
+
+
 cow:
 	@cowsay -W 12 'I hope you have enjoyed the workshop :-)'
