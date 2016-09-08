@@ -3,7 +3,7 @@
 ##date 2016-09-08
 ##genome-build .	hg19
 chr8	refgene	gene	18248755	18258723	.	+	.	gene_id=10;symbol=NAT2;exerc1=FALSE;ID=10
-chr8	refgene	gene	100549014	100549089	.	-	.	gene_id=100126309;symbol=MIR875;exerc1=FALSE;ID=100126309
+chr8	refgene	gene	100549014	100549089	.	-	.	gene_id=100126309;symbol=MIR875;exerc1=FALSE;ID=100126309    
 chr8	refgene	gene	144895127	144895212	.	-	.	gene_id=100126338;symbol=MIR937;exerc1=FALSE;ID=100126338
 chr8	refgene	gene	145619364	145619445	.	-	.	gene_id=100126351;symbol=MIR939;exerc1=FALSE;ID=100126351
 chr8	refgene	gene	91970706	91997485	.	-	.	gene_id=100127983;symbol=C8orf88;exerc1=FALSE;ID=100127983
@@ -11,7 +11,7 @@ chr8	refgene	gene	74332309	74353753	.	+	.	gene_id=100128126;symbol=STAU2-AS1;exe
 chr8	refgene	gene	144816310	144828507	.	+	.	gene_id=100128338;symbol=FAM83H-AS1;exerc1=FALSE;ID=100128338
 chr8	refgene	gene	144077245	144079080	.	+	.	gene_id=100128627;symbol=CDC42P3;exerc1=FALSE;ID=100128627
 chr8	refgene	gene	30239635	30242917	.	-	.	gene_id=100128750;symbol=RBPMS-AS1;exerc1=FALSE;ID=100128750
-chr8	refgene	gene	7143733	7212876	.	-	.	gene_id=100128890;symbol=FAM66B;exerc1=TRUE;ID=100128890
+chr8	refgene	gene	7143733	7212876	.	-	.	gene_id=100128890;symbol=FAM66B;exerc1=TRUE;ID=100128890        _________
 chr8	refgene	gene	19041186	19103032	.	-	.	gene_id=100128993;symbol=LOC100128993;exerc1=FALSE;ID=100128993
 chr8	refgene	gene	67858736	67874825	.	-	.	gene_id=100129654;symbol=TCF24;exerc1=FALSE;ID=100129654
 chr8	refgene	gene	65285775	65295842	.	+	.	gene_id=100130155;symbol=MIR124-2HG;exerc1=FALSE;ID=100130155
@@ -31,18 +31,19 @@ chr8	refgene	gene	12219528	12279970	.	+	.	gene_id=100133172;symbol=FAM66A;exerc1
 chr8	refgene	gene	56361757	56367881	.	-	.	gene_id=100133234;symbol=SBF1P1;exerc1=FALSE;ID=100133234
 chr8	refgene	gene	144063448	144099807	.	-	.	gene_id=100133669;symbol=LOC100133669;exerc1=FALSE;ID=100133669
 chr8	refgene	gene	77523114	77595510	.	-	.	gene_id=100192378;symbol=ZFHX4-AS1;exerc1=FALSE;ID=100192378
-chr8	refgene	gene	6261077	6264069	.	-	.	gene_id=100287015;symbol=LOC100287015;exerc1=TRUE;ID=100287015
+chr8	refgene	gene	6261077	6264069	.	-	.	gene_id=100287015;symbol=LOC100287015;exerc1=TRUE;ID=100287015      / Cows in \
 chr8	refgene	gene	48100930	48104439	.	+	.	gene_id=100287846;symbol=LOC100287846;exerc1=FALSE;ID=100287846
 chr8	refgene	gene	143783670	143808391	.	-	.	gene_id=100288181;symbol=LOC100288181;exerc1=FALSE;ID=100288181
 chr8	refgene	gene	86566828	86757761	.	-	.	gene_id=100288527;symbol=REXO1L2P;exerc1=FALSE;ID=100288527
 chr8	refgene	gene	95649513	95651695	.	-	.	gene_id=100288748;symbol=LOC100288748;exerc1=FALSE;ID=100288748
-chr8	refgene	gene	7272385	7274354	.	-	.	gene_id=100289462;symbol=DEFB4B;exerc1=TRUE;ID=100289462
+chr8	refgene	gene	7272385	7274354	.	-	.	gene_id=100289462;symbol=DEFB4B;exerc1=TRUE;ID=100289462            | the     |
 chr8	refgene	gene	128972879	128972941	.	+	.	gene_id=100302161;symbol=MIR1205;exerc1=FALSE;ID=100302161
 chr8	refgene	gene	10682883	10682953	.	-	.	gene_id=100302166;symbol=MIR1322;exerc1=FALSE;ID=100302166
 chr8	refgene	gene	129021144	129021202	.	+	.	gene_id=100302170;symbol=MIR1206;exerc1=FALSE;ID=100302170
 chr8	refgene	gene	129061398	129061484	.	+	.	gene_id=100302175;symbol=MIR1207;exerc1=FALSE;ID=100302175
 chr8	refgene	gene	128808208	128808274	.	+	.	gene_id=100302185;symbol=MIR1204;exerc1=FALSE;ID=100302185
-chr8	refgene	gene	7946463	7946611	.	-	.	gene_id=100302186;symbol=MIR548I3;exerc1=TRUE;ID=100302186
+chr8	refgene	gene	7946463	7946611	.	-	.	gene_id=100302186;symbol=MIR548I3;exerc1=TRUE;ID=100302186          \ Genome! /
+
 chr8	refgene	gene	145625476	145625559	.	-	.	gene_id=100302196;symbol=MIR1234;exerc1=FALSE;ID=100302196
 chr8	refgene	gene	113655722	113655812	.	+	.	gene_id=100302225;symbol=MIR2053;exerc1=FALSE;ID=100302225
 chr8	refgene	gene	75617928	75617982	.	+	.	gene_id=100302260;symbol=MIR2052;exerc1=FALSE;ID=100302260
@@ -78,13 +79,13 @@ chr8	refgene	gene	92217713	92217786	.	+	.	gene_id=100616245;symbol=MIR4661;exerc
 chr8	refgene	gene	124228028	124228103	.	-	.	gene_id=100616260;symbol=MIR4663;exerc1=FALSE;ID=100616260
 chr8	refgene	gene	143257700	143257779	.	+	.	gene_id=100616268;symbol=MIR4472-1;exerc1=FALSE;ID=100616268
 chr8	refgene	gene	144815253	144815323	.	-	.	gene_id=100616318;symbol=MIR4664;exerc1=FALSE;ID=100616318
-chr8	refgene	gene	6602685	6602765	.	+	.	gene_id=100616348;symbol=MIR4659A;exerc1=TRUE;ID=100616348
-chr8	refgene	gene	8905955	8906028	.	+	.	gene_id=100616350;symbol=MIR4660;exerc1=TRUE;ID=100616350
-chr8	refgene	gene	6602689	6602761	.	-	.	gene_id=100616372;symbol=MIR4659B;exerc1=TRUE;ID=100616372
+chr8	refgene	gene	6602685	6602765	.	+	.	gene_id=100616348;symbol=MIR4659A;exerc1=TRUE;ID=100616348           ---------
+chr8	refgene	gene	8905955	8906028	.	+	.	gene_id=100616350;symbol=MIR4660;exerc1=TRUE;ID=100616350                   \   ^__^
+chr8	refgene	gene	6602689	6602761	.	-	.	gene_id=100616372;symbol=MIR4659B;exerc1=TRUE;ID=100616372                   \  (oo)\_______
 chr8	refgene	gene	101394991	101395073	.	+	.	gene_id=100616451;symbol=MIR4471;exerc1=FALSE;ID=100616451
 chr8	refgene	gene	62627347	62627418	.	+	.	gene_id=100616484;symbol=MIR4470;exerc1=FALSE;ID=100616484
 chr8	refgene	gene	96281064	96822371	.	+	.	gene_id=100616530;symbol=C8orf37-AS1;exerc1=FALSE;ID=100616530
-chr8	refgene	gene	6693076	6699975	.	+	.	gene_id=100652791;symbol=GS1-24F4.2;exerc1=TRUE;ID=100652791
+chr8	refgene	gene	6693076	6699975	.	+	.	gene_id=100652791;symbol=GS1-24F4.2;exerc1=TRUE;ID=100652791                    (__)\       )\/\
 chr8	refgene	gene	128025399	128033259	.	+	.	gene_id=100750225;symbol=PCAT1;exerc1=FALSE;ID=100750225
 chr8	refgene	gene	103137660	103137743	.	+	.	gene_id=100847001;symbol=MIR5680;exerc1=FALSE;ID=100847001
 chr8	refgene	gene	131020580	131020699	.	-	.	gene_id=100847051;symbol=MIR5194;exerc1=FALSE;ID=100847051
@@ -147,7 +148,7 @@ chr8	refgene	gene	69242957	69731258	.	+	.	gene_id=116328;symbol=C8orf34;exerc1=F
 chr8	refgene	gene	144391497	144442147	.	-	.	gene_id=116447;symbol=TOP1MT;exerc1=FALSE;ID=116447
 chr8	refgene	gene	27454434	27472328	.	-	.	gene_id=1191;symbol=CLU;exerc1=FALSE;ID=1191
 chr8	refgene	gene	100890223	100906242	.	-	.	gene_id=1345;symbol=COX6C;exerc1=FALSE;ID=1345
-chr8	refgene	gene	8559666	8561617	.	+	.	gene_id=137075;symbol=CLDN23;exerc1=TRUE;ID=137075
+chr8	refgene	gene	8559666	8561617	.	+	.	gene_id=137075;symbol=CLDN23;exerc1=TRUE;ID=137075                   ||----w |
 chr8	refgene	gene	125985539	125991630	.	+	.	gene_id=137209;symbol=ZNF572;exerc1=FALSE;ID=137209
 chr8	refgene	gene	37791800	37797647	.	-	.	gene_id=137362;symbol=GOT1L1;exerc1=FALSE;ID=137362
 chr8	refgene	gene	94712773	94740671	.	+	.	gene_id=137392;symbol=FAM92A1;exerc1=FALSE;ID=137392
