@@ -1,25 +1,35 @@
-
-all: generate_exercise start docs ignorecase regex multiplefiles
+test_exercises: start help ignorecase multiplefiles
+generate_exercises: generate_grep generate_awk
 
 notebook:
 	jupyter nbconvert --to notebook --execute PEB\ Bash\ Workshop.ipynb
 
-generate_exercise:
+generate_grep:
 	python src/generate_grep_exercise.py
+
+generate_awk:
+	Rscript src/generate_awk_exercise.R
 
 start:
 	grep start data/exercise1_grep.txt
 
-docs:
-	grep docs data/exercise1_grep.txt
+help:
+	grep help data/exercise1_grep.txt
 
 ignorecase:
-	grep ignore-case data/exercise1_grep.txt
-
-regex:
-	grep regex data/exercise1_grep.txt
+	grep -i -c ignorecase data/exercise1_grep.txt
+	grep 21 data/exercise1_grep.txt
 
 multiplefiles:
-	grep 'multiple files' data/exercise1_grep.txt
+	grep 'regex' data/multiplefiles/*
+
+piping:
+	grep ORGANISM data/genes/mgat_genes.gb | grep 'Homo sapiens'
+	grep ORGANISM data/genes/mgat_genes.gb | grep taurus
+
+regex:
+	grep 'AAA..TTT' data/genes/sequences.fasta
 
 
+awk1:
+	awk '$$1=="chr8" && $$4>100000 && $$5<200000 ' data/genes/chr8.gff
