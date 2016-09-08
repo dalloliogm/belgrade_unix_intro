@@ -199,7 +199,7 @@ chr8	refgene	gene	41503829	41643385	.	-	.	gene_id=157848;symbol=NKX6-3;exerc1=FA
 chr8	refgene	gene	36641842	36793643	.	+	.	gene_id=157855;symbol=KCNU1;exerc1=FALSE;ID=157855
 chr8	refgene	gene	73976778	74005507	.	-	.	gene_id=157869;symbol=SBSPON;exerc1=FALSE;ID=157869
 chr8	refgene	gene	59402737	59412720	.	-	.	gene_id=1581;symbol=CYP7A1;exerc1=FALSE;ID=1581
-chr8	refgene	Well_guessed	143953773	143961236	.	-	.	gene_id=1584;symbol=CYP11B1;exerc1=FALSE;ID=1584
+chr8	refgene	Good_Job!	143953773	143961236	.	-	.	gene_id=1584;symbol=CYP11B1;exerc1=FALSE;ID=1584
 chr8	refgene	gene	143991975	143999259	.	-	.	gene_id=1585;symbol=CYP11B2;exerc1=FALSE;ID=1585
 chr8	refgene	gene	39308564	39380508	.	-	.	gene_id=1587;symbol=ADAM3A;exerc1=FALSE;ID=1587
 chr8	refgene	gene	91013580	91064227	.	+	.	gene_id=1666;symbol=DECR1;exerc1=FALSE;ID=1666
