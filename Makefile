@@ -49,3 +49,4 @@ slides_bioc:
 
 cow:
 	@cowsay -W 12 'I hope you have enjoyed the workshop :-)'
+	@cowthink -W 12 "Now let's go to the beach"
