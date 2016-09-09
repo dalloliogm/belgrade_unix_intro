@@ -38,6 +38,12 @@ regex:
 awk1:
 	awk '$$1=="chr8" && $$4>100000 && $$5<200000 ' data/genes/chr8.gff
 
+publish: commit slides
+	git push
+
+commit:
+	git commit -a
+
 slides: slides_bash slides_bioc
 
 slides_bash:
