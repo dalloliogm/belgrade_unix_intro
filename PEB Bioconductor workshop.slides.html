@@ -11842,19 +11842,20 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Requirements">Requirements<a class="anchor-link" href="#Requirements">&#182;</a></h2><p>This workshop requires several bioconductor libraries, which take a while to install.</p>
+<h2 id="Requirements">Requirements<a class="anchor-link" href="#Requirements">&#182;</a></h2><p>Course materials: <a href="http://dalloliogm.github.io">http://dalloliogm.github.io</a></p>
+<p>This workshop requires several bioconductor libraries, which take a while to install.</p>
 <p>Please start their installation by copying&amp;pasting the commands below. We'll continue the lecture while they get installed:</p>
 
-<pre><code># dplyr
-install.packages(c("dplyr"))
-
-# bioconductor
-source("http://bioconductor.org/biocLite/R")
+<pre><code># bioconductor
+source("http://bioconductor.org/biocLite.R")
 biocLite("Homo.sapiens")
 biocLite("rtracklayer")
 biocLite("DOSE")
 biocLite("clusterProfiler")
-biocLite("AnnotationHub")</code></pre>
+biocLite("AnnotationHub")
+
+# dplyr
+install.packages(c("dplyr"))</code></pre>
 
 </div>
 </div>
