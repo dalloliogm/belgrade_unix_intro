@@ -41,10 +41,10 @@ awk1:
 slides: slides_bash slides_bioc
 
 slides_bash:
-	jupyter nbconvert --to slides --post serve PEB\ Bash\ Workshop.ipynb
+	jupyter nbconvert --to slides  PEB\ Bash\ Workshop.ipynb
 
 slides_bioc:
-	jupyter nbconvert --to slides --post serve PEB\ Bioconductor\ Workshop.ipynb
+	jupyter nbconvert --to slides  PEB\ Bioconductor\ workshop.ipynb
 
 
 cow:
