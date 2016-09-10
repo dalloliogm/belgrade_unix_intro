@@ -11870,7 +11870,7 @@ install.packages(c("dplyr"))</code></pre>
 <ul>
 <li>have documentation in the form of a vignette()</li>
 <li>include a battery of tests to make sure that each new version is working</li>
-<li>be published in a bioinformatics journal</li>
+<li>be citable, using citation() and possibly be described in a bioinformatics journal</li>
 </ul>
 
 </div>
@@ -11934,6 +11934,20 @@ vignette()</code></pre>
 
 </div>
 </div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Are-Bioconductor-Annotation-packages-up-to-date?">Are Bioconductor Annotation packages up to date?<a class="anchor-link" href="#Are-Bioconductor-Annotation-packages-up-to-date?">&#182;</a></h2><p>Most data packages are annotated regularly, with different frequency depending on the data type. Usually 6 months/2 years.</p>
+<p>This is a good compromise between reproducibility of analysis, efforts needed to maintain the packages, and getting recent data.</p>
+<h2 id="My-species-is-not-present-or-the-data-is-outdated.">My species is not present or the data is outdated.<a class="anchor-link" href="#My-species-is-not-present-or-the-data-is-outdated.">&#182;</a></h2><p>If your species is not present or you need more recent data, you can create a package on your own.</p>
+<p>Procedure is well documented and usually require just a table as input.</p>
+<p>Easy way to become a Bioconductor developer and good for CV :-)</p>
+
+</div>
+</div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -11947,7 +11961,7 @@ vignette()</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>Homo.sapiens<span class="p">)</span>
@@ -12411,7 +12425,7 @@ PTEN.go<span class="o">$</span>TERM <span class="o">=</span> AnnotationDbi<span 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>clusterProfiler<span class="p">)</span>
@@ -12432,9 +12446,9 @@ mygenes <span class="o">=</span> <span class="kt">c</span><span class="p">(</spa
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stderr output_text">
 <pre>
-Attaching package: ‘DOSE’
+Attaching package: ‘clusterProfiler’
 
-The following object is masked from ‘package:clusterProfiler’:
+The following object is masked from ‘package:DOSE’:
 
     cnetplot
 
@@ -12500,7 +12514,6 @@ myenrich <span class="o">=</span> enrichGO<span class="p">(</span>mygenes<span c
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Behind the lines, enrichGO retrieves the GO annotations from the org.Hs.eg.db package, and calculates the enrichment.</p>
-<p>We can also plot the enrichment:</p>
 
 </div>
 </div>
@@ -12520,7 +12533,7 @@ myenrich <span class="o">=</span> enrichGO<span class="p">(</span>mygenes<span c
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>DOSE<span class="p">)</span>
@@ -12568,7 +12581,7 @@ myenrich.do <span class="o">=</span> enrichDO<span class="p">(</span>mygenes<spa
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>plot<span class="p">(</span><span class="kp">summary</span><span class="p">(</span>myenrich.do<span class="p">))</span>
@@ -12656,7 +12669,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA3yB4AAXYzOhIAAAAASUVORK5CYII="
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>genes<span class="p">(</span>TxDb.Hsapiens.UCSC.hg19.knownGene<span class="p">)</span>
@@ -12697,6 +12710,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA3yB4AAXYzOhIAAAAASUVORK5CYII="
 </div>
 </div>
 
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Subsetting-a-GenomicRanges-object">Subsetting a GenomicRanges object<a class="anchor-link" href="#Subsetting-a-GenomicRanges-object">&#182;</a></h3>
+</div>
+</div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
