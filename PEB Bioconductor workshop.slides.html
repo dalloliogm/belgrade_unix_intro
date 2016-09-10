@@ -14267,7 +14267,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA3yB4AAXYzOhIAAAAASUVORK5CYII="
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>rtracklayer<span class="p">)</span>
@@ -14377,7 +14377,7 @@ closest.genes
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>AnnotationHub<span class="p">)</span>
@@ -14552,26 +14552,216 @@ display(ahub)</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>multi.24 <span class="o">=</span> ahub<span class="p">[[</span><span class="s">&quot;AH5224&quot;</span><span class="p">]]</span>
+multi.24
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>require(“GenomicRanges”)
+</pre>
+</div>
+</div>
+
+<div class="output_area"><div class="prompt"></div>
+
+
+<div class="output_text output_subarea ">
+<pre>GRanges object with 2040420 ranges and 2 metadata columns:
+                 seqnames               ranges strand   |        name     score
+                    &lt;Rle&gt;            &lt;IRanges&gt;  &lt;Rle&gt;   | &lt;character&gt; &lt;numeric&gt;
+        [1]          chr1 [25165820, 25165859]      *   |      lod=22       299
+        [2]          chr1 [28311541, 28311557]      *   |      lod=14       244
+        [3]          chr1 [29360118, 29360136]      *   |      lod=14       244
+        [4]          chr1 [71303152, 71303427]      *   |     lod=462       674
+        [5]          chr1 [88080377, 88080627]      *   |     lod=485       680
+        ...           ...                  ...    ... ...         ...       ...
+  [2040416] chr6_qbl_hap2   [4564430, 4564669]      *   |      lod=40       373
+  [2040417] chr6_qbl_hap2   [4564824, 4564899]      *   |      lod=26       320
+  [2040418] chr6_qbl_hap2   [4564975, 4565246]      *   |      lod=93       477
+  [2040419] chr6_qbl_hap2   [4565271, 4565538]      *   |     lod=102       488
+  [2040420] chr6_qbl_hap2   [4565616, 4565661]      *   |      lod=15       252
+  -------
+  seqinfo: 49 sequences from hg18 genome</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
 </div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Getting-conservation-scores-for-custom-intervals">Getting conservation scores for custom intervals<a class="anchor-link" href="#Getting-conservation-scores-for-custom-intervals">&#182;</a></h2><p>Now that we have conservation scores from the UCSC-Multiz table, we can get the scores for the marks bed file we imported earlier:</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span>
+<div class=" highlight hl-r"><pre><span></span>subsetByOverlaps<span class="p">(</span>multi.24<span class="p">,</span> marks<span class="p">)</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+
+
+<div class="output_text output_subarea ">
+<pre>GRanges object with 10 ranges and 2 metadata columns:
+       seqnames                 ranges strand |        name     score
+          &lt;Rle&gt;              &lt;IRanges&gt;  &lt;Rle&gt; | &lt;character&gt; &lt;numeric&gt;
+   [1]     chr8 [145701434, 145701456]      * |      lod=19       281
+   [2]     chr8 [145701503, 145701510]      * |      lod=13       235
+   [3]     chr8 [145701542, 145701585]      * |      lod=35       357
+   [4]     chr8 [145701653, 145701678]      * |      lod=24       310
+   [5]     chr8 [145702037, 145702121]      * |      lod=36       360
+   [6]     chr8 [145702184, 145702262]      * |      lod=65       433
+   [7]     chr8 [145702272, 145702329]      * |      lod=36       360
+   [8]     chr8 [145702421, 145702512]      * |      lod=46       390
+   [9]    chr20 [ 33852458,  33852471]      * |      lod=15       252
+  [10]    chr20 [ 33852712,  33852970]      * |     lod=428       665
+  -------
+  seqinfo: 49 sequences from hg18 genome</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Another useful function is mergeByOverlaps, which combines information from both ranges:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span>mergeByOverlaps<span class="p">(</span>marks<span class="p">,</span> multi.24<span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+
+
+<div class="output_text output_subarea ">
+<pre>DataFrame with 10 rows and 6 columns
+                            marks        name     score
+                        &lt;GRanges&gt; &lt;character&gt; &lt;numeric&gt;
+1   chr8:+:[145701383, 145702686]       mark1        12
+2   chr8:+:[145701383, 145702686]       mark1        12
+3   chr8:+:[145701383, 145702686]       mark1        12
+4   chr8:+:[145701383, 145702686]       mark1        12
+5   chr8:+:[145701383, 145702686]       mark1        12
+6   chr8:+:[145701383, 145702686]       mark1        12
+7   chr8:+:[145701383, 145702686]       mark1        12
+8   chr8:+:[145701383, 145702686]       mark1        12
+9  chr20:-:[ 33850820,  33852880]       mark2        52
+10 chr20:-:[ 33850820,  33852880]       mark2        52
+                         multi.24      name.1   score.1
+                        &lt;GRanges&gt; &lt;character&gt; &lt;numeric&gt;
+1   chr8:*:[145701434, 145701456]      lod=19       281
+2   chr8:*:[145701503, 145701510]      lod=13       235
+3   chr8:*:[145701542, 145701585]      lod=35       357
+4   chr8:*:[145701653, 145701678]      lod=24       310
+5   chr8:*:[145702037, 145702121]      lod=36       360
+6   chr8:*:[145702184, 145702262]      lod=65       433
+7   chr8:*:[145702272, 145702329]      lod=36       360
+8   chr8:*:[145702421, 145702512]      lod=46       390
+9  chr20:*:[ 33852458,  33852471]      lod=15       252
+10 chr20:*:[ 33852712,  33852970]     lod=428       665</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This can be used to calculate the average conservation by region. In this case we will use the dplyr library for the aggregation:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>dplyr<span class="p">)</span>
+select <span class="o">=</span> AnnotationDbi<span class="o">::</span>select
+
+mergeByOverlaps<span class="p">(</span>marks<span class="p">,</span> multi.24<span class="p">)</span> <span class="o">%&gt;%</span> as.data.frame <span class="o">%&gt;%</span> group_by<span class="p">(</span>marks.seqnames<span class="p">)</span> <span class="o">%&gt;%</span> summarise<span class="p">(</span>mean<span class="o">=</span><span class="kp">mean</span><span class="p">(</span>score.1<span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+
+<div class="output_html rendered_html output_subarea ">
+<table>
+<thead><tr><th scope=col>marks.seqnames</th><th scope=col>mean</th></tr></thead>
+<tbody>
+	<tr><td>chr8  </td><td>340.75</td></tr>
+	<tr><td>chr20 </td><td>458.50</td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
 </div>
 </div>
 
