@@ -11866,7 +11866,7 @@ install.packages(c("dplyr"))</code></pre>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="What-is-Bioconductor?">What is Bioconductor?<a class="anchor-link" href="#What-is-Bioconductor?">&#182;</a></h1><p>Bioconductor is the biggest repository of bioinformatics libraries for R. It contains code for dealing with genomic coordinates, calculating differential expression, converting gene symbols and ids, and much more.</p>
-<p>To be included a bioconductor, a library must:</p>
+<p>To be included in bioconductor, a library must:</p>
 <ul>
 <li>have documentation in the form of a vignette()</li>
 <li>include a battery of tests to make sure that each new version is working</li>
@@ -11889,6 +11889,7 @@ install.packages(c("dplyr"))</code></pre>
 
 <pre><code>biocLite("limma")</code></pre>
 <p>will install the library limma (a popular library for diff. expression analysis)</p>
+<p>Tip: The next time you run R, you can use library(BiocInstaller) instead of source("<a href="http://bioconductor.org/biocLite.R">http://bioconductor.org/biocLite.R</a>")</p>
 
 </div>
 </div>
@@ -11900,12 +11901,13 @@ install.packages(c("dplyr"))</code></pre>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="How-to-get-help-on-a-Bioconductor-package">How to get help on a Bioconductor package<a class="anchor-link" href="#How-to-get-help-on-a-Bioconductor-package">&#182;</a></h1><p>Overview of a package:</p>
 
-<pre><code>library(help=Homo.sapiens)</code></pre>
+<pre><code>library(help=Homo.sapiens)
+ls("package:Homo.sapiens")</code></pre>
 <p>Vignettes</p>
 
 <pre><code>library(Homo.sapiens)
 vignette()</code></pre>
-<p>Given a function from a Bioconductor package, to which objects can it be applied?</p>
+<p>Given a function from a Bioconductor package, get a list of all the objects objects to which it can be applied:</p>
 
 <pre><code>showMethods("findOverlaps")</code></pre>
 
@@ -11917,7 +11919,7 @@ vignette()</code></pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="The-Annotation-packages-in-Bioconductor">The Annotation packages in Bioconductor<a class="anchor-link" href="#The-Annotation-packages-in-Bioconductor">&#182;</a></h1><p>Apart from code function, Bioconductor contains several data packages (<a href="https://www.bioconductor.org/packages/release/data/annotation/">https://www.bioconductor.org/packages/release/data/annotation/</a>), containing contain datasets from public sources for multiple organisms.</p>
+<h1 id="The-Annotation-packages-in-Bioconductor">The Annotation packages in Bioconductor<a class="anchor-link" href="#The-Annotation-packages-in-Bioconductor">&#182;</a></h1><p>Apart from analysis functions, Bioconductor contains several data packages (<a href="https://www.bioconductor.org/packages/release/data/annotation/">https://www.bioconductor.org/packages/release/data/annotation/</a>), assembled from datasets of common interest for multiple organisms.</p>
 <p>Some examples:</p>
 <ul>
 <li><strong>TxDB</strong> objects: coordinates for genes, transcripts, exons...</li>
@@ -11925,6 +11927,15 @@ vignette()</code></pre>
 <li><strong>microarray ids</strong> (e.g. hgu133): conversions probe to genes for Affymetrix and Illumina arrays</li>
 <li><strong>org.*.eg.db</strong>: gene symbol to id conversion (entrez, ensembl, GO, ..)</li>
 </ul>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>In addition two packages allow to access large dataset repositories:</p>
 <ul>
 <li><strong>biomaRt</strong>: any biomart installation, e.g. ensembl, hgnc, (see <a href="http://www.biomart.org/">http://www.biomart.org/</a>)</li>
@@ -11934,17 +11945,16 @@ vignette()</code></pre>
 
 </div>
 </div>
-</div></section><section>
+</div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Are-Bioconductor-Annotation-packages-up-to-date?">Are Bioconductor Annotation packages up to date?<a class="anchor-link" href="#Are-Bioconductor-Annotation-packages-up-to-date?">&#182;</a></h2><p>Most data packages are annotated regularly, with different frequency depending on the data type. Usually 6 months/2 years.</p>
+<h2 id="Are-Bioconductor-Annotation-packages-up-to-date?">Are Bioconductor Annotation packages up to date?<a class="anchor-link" href="#Are-Bioconductor-Annotation-packages-up-to-date?">&#182;</a></h2><p>Most data packages are annotated regularly, with different frequency depending on the data type, from 6 months to 2 years.</p>
 <p>This is a good compromise between reproducibility of analysis, efforts needed to maintain the packages, and getting recent data.</p>
 <h2 id="My-species-is-not-present-or-the-data-is-outdated.">My species is not present or the data is outdated.<a class="anchor-link" href="#My-species-is-not-present-or-the-data-is-outdated.">&#182;</a></h2><p>If your species is not present or you need more recent data, you can create a package on your own.</p>
-<p>Procedure is well documented and usually require just a table as input.</p>
-<p>Easy way to become a Bioconductor developer and good for CV :-)</p>
+<p>The procedure is well documented and usually require just a table as input. It's an easy way to become a Bioconductor developer and good for CV :-)</p>
 
 </div>
 </div>
@@ -11961,13 +11971,27 @@ vignette()</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>Homo.sapiens<span class="p">)</span>
+<span class="kn">library</span><span class="p">(</span>help<span class="o">=</span><span class="s">&quot;Homo.sapiens&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+
+
+
+</div>
+
 </div>
 </div>
 
@@ -11977,7 +12001,7 @@ vignette()</code></pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Bioconductor contains similar wrapper packages for the most common model species (e.g. mouse, rat). For other species, similar data packages may be available, although not organized with a similar wrapper.</p>
+<p>Bioconductor contains similar wrapper packages for the most common model species (e.g. mouse, rat).</p>
 
 </div>
 </div>
@@ -12209,13 +12233,25 @@ vignette()</code></pre>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>These packages also allows to get more documentation:</p>
+
+<pre><code>?org.Hs.egPATH2EG</code></pre>
+
+</div>
+</div>
 </div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Entrez-and-symbols">Entrez and symbols<a class="anchor-link" href="#Entrez-and-symbols">&#182;</a></h3><p>The select() function from AnnotationDbi allows to access all the IDs and Symbols in the org.db object.</p>
+<h3 id="Entrez-and-symbols">Entrez and symbols<a class="anchor-link" href="#Entrez-and-symbols">&#182;</a></h3><p>The basic way to get data from these BiMap objects is the select() function from AnnotationDbi.</p>
 <p>For example, here is how to get entrez and description of genes MGAT2 and MGAT3:</p>
 
 </div>
@@ -12425,7 +12461,7 @@ PTEN.go<span class="o">$</span>TERM <span class="o">=</span> AnnotationDbi<span 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>clusterProfiler<span class="p">)</span>
@@ -12442,19 +12478,6 @@ mygenes <span class="o">=</span> <span class="kt">c</span><span class="p">(</spa
 <div class="output_wrapper">
 <div class="output">
 
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>
-Attaching package: ‘clusterProfiler’
-
-The following object is masked from ‘package:DOSE’:
-
-    cnetplot
-
-</pre>
-</div>
-</div>
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
@@ -13826,14 +13849,14 @@ gUCwAwAAABAIBDsAAAAAgfj/AUDBU06Z+uyaAAAAAElFTkSuQmCC"
 <h2 id="Enrichment-using-other-ontologies">Enrichment using other ontologies<a class="anchor-link" href="#Enrichment-using-other-ontologies">&#182;</a></h2><p>We can also do an enrichment using other ontologies.</p>
 <h3 id="What-is-an-Ontology?">What is an Ontology?<a class="anchor-link" href="#What-is-an-Ontology?">&#182;</a></h3><p>An ontology is a controlled dictionary for a category of terms. They allow to avoid ambigueties and misunderstandings, by defining the standard name of a term (e.g. epilepsy) and annotating all the possible synonyms (e.g. epilepsy syndrome)</p>
 <p>In bioinformatics the most famous ontology is GO, but there are many others. For example MeSH annotates medical terms, and Disease Ontology (subset of MeSH) annotates disease names.</p>
-<p>Since Disease Ontology provides mappings between Disease Terms and genes associated to them, we can calculate an enrichment of disease terms:</p>
+<p>When an Ontology is provided with mappings between terms and genes, we can use it to calculate enrichment. For example, we can use Disease Ontology to see which diseases are enriched in our list:</p>
 
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>DOSE<span class="p">)</span>
@@ -13848,13 +13871,6 @@ myenrich.do <span class="o">=</span> enrichDO<span class="p">(</span>mygenes<spa
 <div class="output_wrapper">
 <div class="output">
 
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>Loading required package: DO.db
-</pre>
-</div>
-</div>
 
 <div class="output_area"><div class="prompt"></div>
 
@@ -13878,6 +13894,17 @@ myenrich.do <span class="o">=</span> enrichDO<span class="p">(</span>mygenes<spa
 </div>
 </div>
 
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You can also plot the output of the enrichment.</p>
+<p>NOTE: due to a bug in the current version of clusterProfiler, the following plot does not currently work. (will try to fix it next week)</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -13954,13 +13981,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA3yB4AAXYzOhIAAAAASUVORK5CYII="
 </div>
 </div>
 
-</div></div></section></section><section><section>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Getting-gene-coordinates:-the-TxDB-packages">Getting gene coordinates: the TxDB packages<a class="anchor-link" href="#Getting-gene-coordinates:-the-TxDB-packages">&#182;</a></h2><p>Another package loaded with Homo.sapiens is the TxDb.Hsapiens.UCSC.hg19.knownGene.</p>
+<h2 id="Getting-gene-coordinates:-the-TxDB-packages">Getting gene coordinates: the TxDB packages<a class="anchor-link" href="#Getting-gene-coordinates:-the-TxDB-packages">&#182;</a></h2><p>Another package loaded with Homo.sapiens is a TxDb object, named TxDb.Hsapiens.UCSC.hg19.knownGene.</p>
 <p>This contains coordinates of genes, transcripts and exons in the human genome.</p>
 <p>We can get the gene coordinates using the genes() function:</p>
 
@@ -14016,7 +14043,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA3yB4AAXYzOhIAAAAASUVORK5CYII="
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Getting-promoters,-cds,-transcripts-and-exons">Getting promoters, cds, transcripts and exons<a class="anchor-link" href="#Getting-promoters,-cds,-transcripts-and-exons">&#182;</a></h3><p>Apart from genes, we can extract coordinates of transcripts(), exons(), cds(), and promoters(), using the correspondant function.</p>
+<h3 id="Getting-promoters,-cds,-transcripts-and-exons">Getting promoters, cds, transcripts and exons<a class="anchor-link" href="#Getting-promoters,-cds,-transcripts-and-exons">&#182;</a></h3><p>Apart from genes, we can extract coordinates of transcripts(), exons(), cds(), and promoters(), using the homonymous function.</p>
 <p>The output of these functions can be customized to include additional columns, e.g. you may want to print both the exon and gene id:</p>
 
 </div>
@@ -14109,7 +14136,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA3yB4AAXYzOhIAAAAASUVORK5CYII="
 </div>
 </div>
 
-</div>
+</div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -14170,7 +14197,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA3yB4AAXYzOhIAAAAASUVORK5CYII="
 </div>
 </div>
 
-</div></section><section>
+</div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -14240,12 +14267,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA3yB4AAXYzOhIAAAAASUVORK5CYII="
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>rtracklayer<span class="p">)</span>
-import<span class="p">(</span><span class="s">&quot;https://raw.githubusercontent.com/dalloliogm/belgrade_unix_intro/master/data/genes/example.bed&quot;</span><span class="p">,</span>
+marks <span class="o">=</span> import<span class="p">(</span><span class="s">&quot;https://raw.githubusercontent.com/dalloliogm/belgrade_unix_intro/master/data/genes/example.bed&quot;</span><span class="p">,</span>
       format<span class="o">=</span><span class="s">&quot;bed&quot;</span><span class="p">)</span>
+marks
 </pre></div>
 
 </div>
@@ -14293,23 +14321,63 @@ chr20    33850819    33852880    mark2    52    -</code></pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Operations-on-GenomicRanges:-nearest">Operations on GenomicRanges: nearest<a class="anchor-link" href="#Operations-on-GenomicRanges:-nearest">&#182;</a></h3><p>The BED file</p>
+<h3 id="Operations-on-GenomicRanges:-nearest">Operations on GenomicRanges: nearest<a class="anchor-link" href="#Operations-on-GenomicRanges:-nearest">&#182;</a></h3><p>The BED file just imported contains coordinates of two regions.</p>
+<p>We can use the nearest() function to find the genes that are closer to these regions:</p>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span>human.genes <span class="o">=</span> genes<span class="p">(</span>TxDb.Hsapiens.UCSC.hg19.knownGene<span class="p">)</span>
+closest.genes <span class="o">=</span> human.genes<span class="p">[</span>nearest<span class="p">(</span>marks<span class="p">,</span> human.genes<span class="p">)]</span>
+closest.genes<span class="o">$</span>mark <span class="o">=</span> marks<span class="o">$</span>name
+closest.genes
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+
+
+<div class="output_text output_subarea ">
+<pre>GRanges object with 2 ranges and 2 metadata columns:
+        seqnames                 ranges strand |     gene_id        mark
+           &lt;Rle&gt;              &lt;IRanges&gt;  &lt;Rle&gt; | &lt;character&gt; &lt;character&gt;
+  90990     chr8 [145691738, 145699499]      + |       90990       mark1
+  55741    chr20 [ 33703160,  33865960]      - |       55741       mark2
+  -------
+  seqinfo: 93 sequences (1 circular) from hg19 genome</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Annotation-Hub">Annotation Hub<a class="anchor-link" href="#Annotation-Hub">&#182;</a></h1>
+<h1 id="Annotation-Hub">Annotation Hub<a class="anchor-link" href="#Annotation-Hub">&#182;</a></h1><p>AnnotationHub is a recently introduced library, which allows to download data from several sources, directly into R:</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>AnnotationHub<span class="p">)</span>
@@ -14324,19 +14392,6 @@ ahub
 <div class="output_wrapper">
 <div class="output">
 
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>
-Attaching package: ‘AnnotationHub’
-
-The following object is masked from ‘package:Biobase’:
-
-    cache
-
-</pre>
-</div>
-</div>
 
 <div class="output_area"><div class="prompt"></div>
 
@@ -14370,7 +14425,121 @@ The following object is masked from ‘package:Biobase’:
 </div>
 </div>
 
-</div></section></section>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Getting-data-with-AnnotationHub">Getting data with AnnotationHub<a class="anchor-link" href="#Getting-data-with-AnnotationHub">&#182;</a></h3><p>For an overview of the data available via AnnotationHub, we can run the display function:</p>
+
+<pre><code>ahub = AnnotationHub()
+display(ahub)</code></pre>
+<p>In alternative, we can use the subset function:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span><span class="kp">subset</span><span class="p">(</span>ahub<span class="p">,</span> species <span class="o">==</span> <span class="s">&quot;Homo sapiens&quot;</span> <span class="o">&amp;</span> dataprovider <span class="o">==</span> <span class="s">&quot;UCSC&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+
+
+<div class="output_text output_subarea ">
+<pre>AnnotationHub with 5958 records
+# snapshotDate(): 2016-08-15 
+# $dataprovider: UCSC
+# $species: Homo sapiens
+# $rdataclass: GRanges, ChainFile, TwoBitFile
+# additional mcols(): taxonomyid, genome, description, tags, sourceurl,
+#   sourcetype 
+# retrieve records with, e.g., &#39;object[[&#34;AH5012&#34;]]&#39; 
+
+            title                                             
+  AH5012  | Chromosome Band                                   
+  AH5013  | STS Markers                                       
+  AH5014  | FISH Clones                                       
+  AH5015  | Recomb Rate                                       
+  AH5016  | ENCODE Pilot                                      
+  ...       ...                                               
+  AH27618 | wgEncodeUwTfbsWerirb1CtcfStdPkRep2.narrowPeak.gz  
+  AH27619 | wgEncodeUwTfbsWi38CtcfStdHotspotsRep1.broadPeak.gz
+  AH27620 | wgEncodeUwTfbsWi38CtcfStdHotspotsRep2.broadPeak.gz
+  AH27621 | wgEncodeUwTfbsWi38CtcfStdPkRep1.narrowPeak.gz     
+  AH27622 | wgEncodeUwTfbsWi38CtcfStdPkRep2.narrowPeak.gz     </pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>For more complex queries, we can also use query():</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span>query<span class="p">(</span><span class="kp">subset</span><span class="p">(</span>ahub<span class="p">,</span> species <span class="o">==</span> <span class="s">&quot;Homo sapiens&quot;</span> <span class="o">&amp;</span> dataprovider <span class="o">==</span> <span class="s">&quot;UCSC&quot;</span><span class="p">),</span> <span class="s">&quot;Most cons&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+
+
+<div class="output_text output_subarea ">
+<pre>AnnotationHub with 3 records
+# snapshotDate(): 2016-08-15 
+# $dataprovider: UCSC
+# $species: Homo sapiens
+# $rdataclass: GRanges
+# additional mcols(): taxonomyid, genome, description, tags, sourceurl,
+#   sourcetype 
+# retrieve records with, e.g., &#39;object[[&#34;AH5224&#34;]]&#39; 
+
+           title           
+  AH5224 | 28-Way Most Cons
+  AH5225 | 17-Way Most Cons
+  AH5354 | Most Conserved  </pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></div></section></section>
 </div>
 </div>
 
