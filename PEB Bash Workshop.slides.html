@@ -13378,7 +13378,7 @@ chr8 69143 gene_id=100128890;symbol=FAM66B;ID=100128890
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;{print $1, $5-$4, $9}&#39;</span> data/genes/chr8.gff <span class="p">|</span> grep -v <span class="s1">&#39;^#&#39;</span> <span class="p">|</span> awk -F<span class="s1">&#39;;&#39;</span> <span class="s1">&#39;{print $1, $2}&#39;</span> <span class="p">|</span> head
@@ -13407,8 +13407,6 @@ chr8 69143 gene_id=100128890 symbol=FAM66B
 awk: write failure (Broken pipe)
 awk: close failed on file /dev/stdout (Broken pipe)
 grep: write error
-awk: write failure (Broken pipe)
-awk: close failed on file /dev/stdout (Broken pipe)
 </pre>
 </div>
 </div>
@@ -13543,7 +13541,7 @@ chr8	refgene	gene	145019359	145019447	.	-	.	gene_id=724031;symbol=MIR661;;ID=724
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$9 ~ /gene_id=1584/ {print $0}&#39;</span> data/genes/chr8.gff
@@ -13559,7 +13557,7 @@ chr8	refgene	gene	145019359	145019447	.	-	.	gene_id=724031;symbol=MIR661;;ID=724
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>chr8	refgene	Good_Job!	143953773	143961236	.	-	.	gene_id=1584;symbol=CYP11B1;exerc1=FALSE;ID=1584
+<pre>chr8	refgene	Good_Job!	143953773	143961236	.	-	.	gene_id=1584;symbol=CYP11B1;;ID=1584
 </pre>
 </div>
 </div>
@@ -13726,7 +13724,7 @@ You can associate it to as many commands you want
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>make cow
