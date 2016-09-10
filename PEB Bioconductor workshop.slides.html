@@ -11859,23 +11859,55 @@ install.packages(c("dplyr"))</code></pre>
 
 </div>
 </div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="What-is-Bioconductor?">What is Bioconductor?<a class="anchor-link" href="#What-is-Bioconductor?">&#182;</a></h1><p>Bioconductor is the biggest repository of bioinformatics libraries for R. It contains code for dealing with genomic coordinates, calculating differential expression, converting gene symbols and ids, and much more.</p>
+<p>To be included a bioconductor, a library must:</p>
+<ul>
+<li>have documentation in the form of a vignette()</li>
+<li>include a battery of tests to make sure that each new version is working</li>
+<li>be published in a bioinformatics journal</li>
+</ul>
+
+</div>
+</div>
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Which-libraries-are-we-installing?">Which libraries are we installing?<a class="anchor-link" href="#Which-libraries-are-we-installing?">&#182;</a></h2><ul>
-<li><strong>Homo.sapiens</strong>: Wrapper containing several H.sapiens-related packages:<ul>
-<li><strong>TxDB</strong>: coordinates for genes, transcripts, exons...</li>
-<li><strong>org.Hs.eg.db</strong>: Gene symbols</li>
-<li><strong>GenomicRanges</strong>: allows to work with gene coordinates</li>
-</ul>
-</li>
-<li><strong>rtracklayer</strong>: allows to import BED files and other formats</li>
-<li><strong>DOSE</strong> and <strong>clusterProfiler</strong>: for ontology enrichment (GO, Disease Ontology, Reactome)</li>
-<li><strong>AnnotationHub</strong>: allows to download data from UCSC and many other sources</li>
-</ul>
+<h2 id="How-to-get-Bioconductor-Packages">How to get Bioconductor Packages<a class="anchor-link" href="#How-to-get-Bioconductor-Packages">&#182;</a></h2><p>First, run the following:</p>
+
+<pre><code>source("http://bioconductor.org/biocLite.R")</code></pre>
+<p>At this point you can run the biocLite function to install any package available at <a href="http://bioconductor.org/packages/release/BiocViews.html#___Software">http://bioconductor.org/packages/release/BiocViews.html#___Software</a></p>
+<p>For example:</p>
+
+<pre><code>biocLite("limma")</code></pre>
+<p>will install the library limma (a popular library for diff. expression analysis)</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="How-to-get-help-on-a-Bioconductor-package">How to get help on a Bioconductor package<a class="anchor-link" href="#How-to-get-help-on-a-Bioconductor-package">&#182;</a></h1><p>Overview of a package:</p>
+
+<pre><code>library(help=Homo.sapiens)</code></pre>
+<p>Vignettes</p>
+
+<pre><code>library(Homo.sapiens)
+vignette()</code></pre>
+<p>Given a function from a Bioconductor package, to which objects can it be applied?</p>
+
+<pre><code>showMethods("findOverlaps")</code></pre>
 
 </div>
 </div>
@@ -11885,7 +11917,7 @@ install.packages(c("dplyr"))</code></pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="The-Annotation-packages-in-Bioconductor">The Annotation packages in Bioconductor<a class="anchor-link" href="#The-Annotation-packages-in-Bioconductor">&#182;</a></h1><p>Bioconductor contains several data packages (<a href="https://www.bioconductor.org/packages/release/data/annotation/">https://www.bioconductor.org/packages/release/data/annotation/</a>), containing contain datasets from public sources for multiple organisms.</p>
+<h1 id="The-Annotation-packages-in-Bioconductor">The Annotation packages in Bioconductor<a class="anchor-link" href="#The-Annotation-packages-in-Bioconductor">&#182;</a></h1><p>Apart from code function, Bioconductor contains several data packages (<a href="https://www.bioconductor.org/packages/release/data/annotation/">https://www.bioconductor.org/packages/release/data/annotation/</a>), containing contain datasets from public sources for multiple organisms.</p>
 <p>Some examples:</p>
 <ul>
 <li><strong>TxDB</strong> objects: coordinates for genes, transcripts, exons...</li>
@@ -11915,10 +11947,10 @@ install.packages(c("dplyr"))</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="kp">suppressPackageStartupMessages</span><span class="p">(</span><span class="kn">library</span><span class="p">(</span>Homo.sapiens<span class="p">))</span>
+<div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>Homo.sapiens<span class="p">)</span>
 </pre></div>
 
 </div>
@@ -11942,7 +11974,8 @@ install.packages(c("dplyr"))</code></pre>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Gene-symbols-and-IDs:-the-org.Hs.eg.db-package">Gene symbols and IDs: the org.Hs.eg.db package<a class="anchor-link" href="#Gene-symbols-and-IDs:-the-org.Hs.eg.db-package">&#182;</a></h2><p>The org.*.eg.db packages allow to retrieve gene symbols and ids relative to a species (see <a href="https://www.bioconductor.org/packages/release/data/annotation/">list of all packages</a>). The data is updated every two years, which is a good compromise between reproducibility and getting recent data.</p>
-<p>To see which data is included in this package, we can open its help page:</p>
+<p>If no org.eg.db package is available for your species, you may consider creating one yourself. You only require a table of genes/symbols, and following a <a href="https://www.bioconductor.org/packages/devel/bioc/vignettes/AnnotationForge/inst/doc/SQLForge.pdf">tutorial</a></p>
+<p>To see which data is included in the human package, we can open its help page:</p>
 
 <pre><code>library(help=org.Hs.eg.db)</code></pre>
 <p>In alternative, we can use the columns() function:</p>
@@ -12019,6 +12052,150 @@ install.packages(c("dplyr"))</code></pre>
 </div>
 </div>
 </div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Visualizing-a-bimap-as-a-table">Visualizing a bimap as a table<a class="anchor-link" href="#Visualizing-a-bimap-as-a-table">&#182;</a></h2><p>The BiMaps in a library can also be accessed as variable. For example, org.Hs.eg.db contains many variables starting with "org.Hs.eg":</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span><span class="kp">ls</span><span class="p">(</span><span class="s">&quot;package:org.Hs.eg.db&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+
+<div class="output_html rendered_html output_subarea ">
+<ol class=list-inline>
+	<li>'org.Hs.eg'</li>
+	<li>'org.Hs.egACCNUM'</li>
+	<li>'org.Hs.egACCNUM2EG'</li>
+	<li>'org.Hs.egALIAS2EG'</li>
+	<li>'org.Hs.egCHR'</li>
+	<li>'org.Hs.egCHRLENGTHS'</li>
+	<li>'org.Hs.egCHRLOC'</li>
+	<li>'org.Hs.egCHRLOCEND'</li>
+	<li>'org.Hs.eg.db'</li>
+	<li>'org.Hs.eg_dbconn'</li>
+	<li>'org.Hs.eg_dbfile'</li>
+	<li>'org.Hs.eg_dbInfo'</li>
+	<li>'org.Hs.eg_dbschema'</li>
+	<li>'org.Hs.egENSEMBL'</li>
+	<li>'org.Hs.egENSEMBL2EG'</li>
+	<li>'org.Hs.egENSEMBLPROT'</li>
+	<li>'org.Hs.egENSEMBLPROT2EG'</li>
+	<li>'org.Hs.egENSEMBLTRANS'</li>
+	<li>'org.Hs.egENSEMBLTRANS2EG'</li>
+	<li>'org.Hs.egENZYME'</li>
+	<li>'org.Hs.egENZYME2EG'</li>
+	<li>'org.Hs.egGENENAME'</li>
+	<li>'org.Hs.egGO'</li>
+	<li>'org.Hs.egGO2ALLEGS'</li>
+	<li>'org.Hs.egGO2EG'</li>
+	<li>'org.Hs.egMAP'</li>
+	<li>'org.Hs.egMAP2EG'</li>
+	<li>'org.Hs.egMAPCOUNTS'</li>
+	<li>'org.Hs.egOMIM'</li>
+	<li>'org.Hs.egOMIM2EG'</li>
+	<li>'org.Hs.egORGANISM'</li>
+	<li>'org.Hs.egPATH'</li>
+	<li>'org.Hs.egPATH2EG'</li>
+	<li>'org.Hs.egPFAM'</li>
+	<li>'org.Hs.egPMID'</li>
+	<li>'org.Hs.egPMID2EG'</li>
+	<li>'org.Hs.egPROSITE'</li>
+	<li>'org.Hs.egREFSEQ'</li>
+	<li>'org.Hs.egREFSEQ2EG'</li>
+	<li>'org.Hs.egSYMBOL'</li>
+	<li>'org.Hs.egSYMBOL2EG'</li>
+	<li>'org.Hs.egUCSCKG'</li>
+	<li>'org.Hs.egUNIGENE'</li>
+	<li>'org.Hs.egUNIGENE2EG'</li>
+	<li>'org.Hs.egUNIPROT'</li>
+</ol>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>These can be converted to table using as.data.frame or toTable. For example the following gets a dataframe of all KEGG pathways to Entrez:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span><span class="kp">head</span><span class="p">(</span>toTable<span class="p">(</span>org.Hs.egPATH2EG<span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+
+<div class="output_html rendered_html output_subarea ">
+<table>
+<thead><tr><th scope=col>gene_id</th><th scope=col>path_id</th></tr></thead>
+<tbody>
+	<tr><td>2    </td><td>04610</td></tr>
+	<tr><td>9    </td><td>00232</td></tr>
+	<tr><td>9    </td><td>00983</td></tr>
+	<tr><td>9    </td><td>01100</td></tr>
+	<tr><td>10   </td><td>00232</td></tr>
+	<tr><td>10   </td><td>00983</td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>To get the name and description of these KEGG pathways, we would have to load the KEGG.db data package.</p>
+
+</div>
+</div>
+</div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12234,7 +12411,7 @@ PTEN.go<span class="o">$</span>TERM <span class="o">=</span> AnnotationDbi<span 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>clusterProfiler<span class="p">)</span>
@@ -12253,6 +12430,19 @@ mygenes <span class="o">=</span> <span class="kt">c</span><span class="p">(</spa
 
 
 <div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>
+Attaching package: ‘DOSE’
+
+The following object is masked from ‘package:clusterProfiler’:
+
+    cnetplot
+
+</pre>
+</div>
+</div>
+
+<div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre> [1] 23450  5160  7126 27118  8452  3675  6624  3638  9918   123
 </pre>
@@ -12265,7 +12455,7 @@ mygenes <span class="o">=</span> <span class="kt">c</span><span class="p">(</spa
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># Let&#39;s calculate the enrichment</span>
@@ -12321,14 +12511,16 @@ myenrich <span class="o">=</span> enrichGO<span class="p">(</span>mygenes<span c
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Enrichment-using-other-ontologies">Enrichment using other ontologies<a class="anchor-link" href="#Enrichment-using-other-ontologies">&#182;</a></h2><p>We can also do an enrichment using other ontologies.</p>
-<p>For example, Disease Ontology</p>
+<h3 id="What-is-an-Ontology?">What is an Ontology?<a class="anchor-link" href="#What-is-an-Ontology?">&#182;</a></h3><p>An ontology is a controlled dictionary for a category of terms. They allow to avoid ambigueties and misunderstandings, by defining the standard name of a term (e.g. epilepsy) and annotating all the possible synonyms (e.g. epilepsy syndrome)</p>
+<p>In bioinformatics the most famous ontology is GO, but there are many others. For example MeSH annotates medical terms, and Disease Ontology (subset of MeSH) annotates disease names.</p>
+<p>Since Disease Ontology provides mappings between Disease Terms and genes associated to them, we can calculate an enrichment of disease terms:</p>
 
 </div>
 </div>
-</div>
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>DOSE<span class="p">)</span>
@@ -12345,17 +12537,24 @@ myenrich.do <span class="o">=</span> enrichDO<span class="p">(</span>mygenes<spa
 
 
 <div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Loading required package: DO.db
+</pre>
+</div>
+</div>
+
+<div class="output_area"><div class="prompt"></div>
 
 <div class="output_html rendered_html output_subarea ">
 <table>
 <thead><tr><th></th><th scope=col>ID</th><th scope=col>Description</th><th scope=col>GeneRatio</th><th scope=col>BgRatio</th><th scope=col>pvalue</th><th scope=col>p.adjust</th><th scope=col>qvalue</th><th scope=col>geneID</th><th scope=col>Count</th></tr></thead>
 <tbody>
-	<tr><th scope=row>DOID:0060116</th><td>DOID:0060116                                        </td><td>sensory system cancer                               </td><td>11/18                                               </td><td>139/8007                                            </td><td>8.307132e-16                                        </td><td>1.815108e-13                                        </td><td>7.520140e-14                                        </td><td>3383/1869/890/1871/9134/9928/1029/3479/6573/3757/332</td><td>11                                                  </td></tr>
-	<tr><th scope=row>DOID:2174</th><td>DOID:2174                                           </td><td>ocular cancer                                       </td><td>11/18                                               </td><td>139/8007                                            </td><td>8.307132e-16                                        </td><td>1.815108e-13                                        </td><td>7.520140e-14                                        </td><td>3383/1869/890/1871/9134/9928/1029/3479/6573/3757/332</td><td>11                                                  </td></tr>
-	<tr><th scope=row>DOID:768</th><td>DOID:768                                            </td><td>retinoblastoma                                      </td><td>10/18                                               </td><td>116/8007                                            </td><td>1.091404e-14                                        </td><td>1.137518e-12                                        </td><td>4.712827e-13                                        </td><td>1869/890/1871/9134/9928/1029/3479/6573/3757/332     </td><td>10                                                  </td></tr>
-	<tr><th scope=row>DOID:771</th><td>DOID:771                                            </td><td>retinal cell cancer                                 </td><td>10/18                                               </td><td>116/8007                                            </td><td>1.091404e-14                                        </td><td>1.137518e-12                                        </td><td>4.712827e-13                                        </td><td>1869/890/1871/9134/9928/1029/3479/6573/3757/332     </td><td>10                                                  </td></tr>
-	<tr><th scope=row>DOID:4645</th><td>DOID:4645                                           </td><td>retinal cancer                                      </td><td>10/18                                               </td><td>118/8007                                            </td><td>1.301508e-14                                        </td><td>1.137518e-12                                        </td><td>4.712827e-13                                        </td><td>1869/890/1871/9134/9928/1029/3479/6573/3757/332     </td><td>10                                                  </td></tr>
-	<tr><th scope=row>DOID:341</th><td>DOID:341                                            </td><td>peripheral vascular disease                         </td><td>5/18                                                </td><td>61/8007                                             </td><td>1.724642e-07                                        </td><td>1.256114e-05                                        </td><td>5.204181e-06                                        </td><td>3383/1869/1871/1029/3479                            </td><td> 5                                                  </td></tr>
+	<tr><th scope=row>DOID:0060116</th><td>DOID:0060116                                            </td><td>sensory system cancer                                   </td><td>11/18                                                   </td><td>139/8018                                                </td><td>8.183720e-16                                            </td><td>2.168686e-13                                            </td><td>8.011431e-14                                            </td><td>3383/1869/890/1871/9134/9928/1029/3479/6573/3757/332    </td><td>11                                                      </td></tr>
+	<tr><th scope=row>DOID:2174</th><td>DOID:2174                                               </td><td>ocular cancer                                           </td><td>11/18                                                   </td><td>139/8018                                                </td><td>8.183720e-16                                            </td><td>2.168686e-13                                            </td><td>8.011431e-14                                            </td><td>3383/1869/890/1871/9134/9928/1029/3479/6573/3757/332    </td><td>11                                                      </td></tr>
+	<tr><th scope=row>DOID:768</th><td>DOID:768                                                </td><td>retinoblastoma                                          </td><td>10/18                                                   </td><td>116/8018                                                </td><td>1.076659e-14                                            </td><td>1.360963e-12                                            </td><td>5.027589e-13                                            </td><td>1869/890/1871/9134/9928/1029/3479/6573/3757/332         </td><td>10                                                      </td></tr>
+	<tr><th scope=row>DOID:771</th><td>DOID:771                                                </td><td>retinal cell cancer                                     </td><td>10/18                                                   </td><td>116/8018                                                </td><td>1.076659e-14                                            </td><td>1.360963e-12                                            </td><td>5.027589e-13                                            </td><td>1869/890/1871/9134/9928/1029/3479/6573/3757/332         </td><td>10                                                      </td></tr>
+	<tr><th scope=row>DOID:4645</th><td>DOID:4645                                               </td><td>retinal cancer                                          </td><td>10/18                                                   </td><td>118/8018                                                </td><td>1.283927e-14                                            </td><td>1.360963e-12                                            </td><td>5.027589e-13                                            </td><td>1869/890/1871/9134/9928/1029/3479/6573/3757/332         </td><td>10                                                      </td></tr>
+	<tr><th scope=row>DOID:5679</th><td>DOID:5679                                               </td><td>retinal disease                                         </td><td>12/18                                                   </td><td>455/8018                                                </td><td>1.316791e-11                                            </td><td>1.163165e-09                                            </td><td>4.296896e-10                                            </td><td>123/3383/1869/890/1871/9134/9928/1029/3479/6573/3757/332</td><td>12                                                      </td></tr>
 </tbody>
 </table>
 
@@ -12369,7 +12568,7 @@ myenrich.do <span class="o">=</span> enrichDO<span class="p">(</span>mygenes<spa
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>plot<span class="p">(</span><span class="kp">summary</span><span class="p">(</span>myenrich.do<span class="p">))</span>
@@ -12385,16 +12584,13 @@ myenrich.do <span class="o">=</span> enrichDO<span class="p">(</span>mygenes<spa
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>Warning message:
-In data.matrix(x): NAs introduced by coercionWarning message:
-In data.matrix(x): NAs introduced by coercionWarning message:
-In data.matrix(x): NAs introduced by coercionWarning message:
-In data.matrix(x): NAs introduced by coercionWarning message:
-In data.matrix(x): NAs introduced by coercionWarning message:
-In min(x): no non-missing arguments to min; returning InfWarning message:
-In max(x): no non-missing arguments to max; returning -InfWarning message:
-In min(x): no non-missing arguments to min; returning InfWarning message:
-In max(x): no non-missing arguments to max; returning -Inf</pre>
+<pre>Warning message in data.matrix(x):
+“NAs introduced by coercion”Warning message in data.matrix(x):
+“NAs introduced by coercion”Warning message in min(x):
+“no non-missing arguments to min; returning Inf”Warning message in max(x):
+“no non-missing arguments to max; returning -Inf”Warning message in min(x):
+“no non-missing arguments to min; returning Inf”Warning message in max(x):
+“no non-missing arguments to max; returning -Inf”</pre>
 </div>
 </div>
 
@@ -12445,24 +12641,62 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA3yB4AAXYzOhIAAAAASUVORK5CYII="
 </div>
 </div>
 
-</div></section></section><section><section>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Getting-gene-coordinates:-the-TxDB-packages">Getting gene coordinates: the TxDB packages<a class="anchor-link" href="#Getting-gene-coordinates:-the-TxDB-packages">&#182;</a></h2>
+<h2 id="Getting-gene-coordinates:-the-TxDB-packages">Getting gene coordinates: the TxDB packages<a class="anchor-link" href="#Getting-gene-coordinates:-the-TxDB-packages">&#182;</a></h2><p>Another package loaded with Homo.sapiens is the TxDb.Hsapiens.UCSC.hg19.knownGene.</p>
+<p>This contains coordinates of genes, transcripts and exons in the human genome.</p>
+<p>We can get the gene coordinates using the genes() function:</p>
+
 </div>
 </div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Calculating-Enrichment">Calculating Enrichment<a class="anchor-link" href="#Calculating-Enrichment">&#182;</a></h1>
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span>genes<span class="p">(</span>TxDb.Hsapiens.UCSC.hg19.knownGene<span class="p">)</span>
+</pre></div>
+
 </div>
 </div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+
+
+<div class="output_text output_subarea ">
+<pre>GRanges object with 23056 ranges and 1 metadata column:
+        seqnames                 ranges strand   |     gene_id
+           &lt;Rle&gt;              &lt;IRanges&gt;  &lt;Rle&gt;   | &lt;character&gt;
+      1    chr19 [ 58858172,  58874214]      -   |           1
+     10     chr8 [ 18248755,  18258723]      +   |          10
+    100    chr20 [ 43248163,  43280376]      -   |         100
+   1000    chr18 [ 25530930,  25757445]      -   |        1000
+  10000     chr1 [243651535, 244006886]      -   |       10000
+    ...      ...                    ...    ... ...         ...
+   9991     chr9 [114979995, 115095944]      -   |        9991
+   9992    chr21 [ 35736323,  35743440]      +   |        9992
+   9993    chr22 [ 19023795,  19109967]      -   |        9993
+   9994     chr6 [ 90539619,  90584155]      +   |        9994
+   9997    chr22 [ 50961997,  50964905]      -   |        9997
+  -------
+  seqinfo: 93 sequences (1 circular) from hg19 genome</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -12529,51 +12763,6 @@ The following object is masked from ‘package:Biobase’:
   AH49438 | Xiphophorus_maculatus.Xipmac4.4.2.dna.toplevel.fa   
   AH49439 | Xiphophorus_maculatus.Xipmac4.4.2.ncrna.fa          
   AH49440 | Xiphophorus_maculatus.Xipmac4.4.2.pep.all.fa        </pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>Homo.sapiens<span class="p">)</span>
-genes<span class="p">(</span>TxDb.Hsapiens.UCSC.hg19.knownGene<span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-
-
-<div class="output_text output_subarea ">
-<pre>GRanges object with 23056 ranges and 1 metadata column:
-        seqnames                 ranges strand   |     gene_id
-           &lt;Rle&gt;              &lt;IRanges&gt;  &lt;Rle&gt;   | &lt;character&gt;
-      1    chr19 [ 58858172,  58874214]      -   |           1
-     10     chr8 [ 18248755,  18258723]      +   |          10
-    100    chr20 [ 43248163,  43280376]      -   |         100
-   1000    chr18 [ 25530930,  25757445]      -   |        1000
-  10000     chr1 [243651535, 244006886]      -   |       10000
-    ...      ...                    ...    ... ...         ...
-   9991     chr9 [114979995, 115095944]      -   |        9991
-   9992    chr21 [ 35736323,  35743440]      +   |        9992
-   9993    chr22 [ 19023795,  19109967]      -   |        9993
-   9994     chr6 [ 90539619,  90584155]      +   |        9994
-   9997    chr22 [ 50961997,  50964905]      -   |        9997
-  -------
-  seqinfo: 93 sequences (1 circular) from hg19 genome</pre>
 </div>
 
 </div>
