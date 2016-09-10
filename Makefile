@@ -42,7 +42,7 @@ publish: commit slides
 	git push
 
 commit:
-	git commit -a
+	-git commit -a
 
 slides: slides_bash slides_bioc
 
